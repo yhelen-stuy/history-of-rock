@@ -21,7 +21,7 @@ This visualization will allow the user to explore the evolution of rock bands an
 
 ## D3 Features
 
-Using enter, a node on the web will be generated for every dataset point on genres as well as on the timeline. The project may resemble [another d3 project](https://bl.ocks.org/mbostock/4062045). This visualization will resemble a web diagram similar to this (without the bounce). Related nodes are connected (artists connected to a genre, artists influencing each other). Nodes will be static upon entering the page.
+Using enter, a node on the web will be generated for every dataset point on genres as well as on the timeline. The project may resemble [another d3 project](http://mbostock.github.io/d3/talk/20111116/force-collapsible.html). This visualization will resemble a web diagram similar to this (without the bounce). Related nodes are connected (artists connected to a genre, artists influencing each other). Nodes will be static upon entering the page.
 
 ## Sketch
 
