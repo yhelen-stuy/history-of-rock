@@ -5,3 +5,6 @@ P#1 -- Viz
 cartegniA, ionkinaK, lauS, yeH -- 2018-03-29 00:30
 Finish design doc
 ----------------------------------------------------
+yeH -- 2018-04-02 11:50
+Collect band active year data into JSON file
+----------------------------------------------------
