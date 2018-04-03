@@ -8,3 +8,11 @@ Finish design doc
 yeH -- 2018-04-02 11:50
 Collect band active year data into JSON file
 ----------------------------------------------------
+ionkinK -- 2018-04-02 20:42
+Collect band influence data and add to JSON file
+Finished about a fourth of all the bands
+Sources:
+-  https://www.digitaltrends.com/music/5-bands-influenced-by-chuck-berry/,
+- shmoop, wiki
+- https://newpittsburghcourieronline.com/2015/11/28/carole-king-major-influence-on-black-music/
+----------------------------------------------------

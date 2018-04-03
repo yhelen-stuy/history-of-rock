@@ -2,57 +2,72 @@
     "Sister Rosetta Tharpe":
         {
             "start": [1919],
-            "end": [1973]
+            "end": [1973],
+	    "influenced": ["Johnny Cash", "Chuck Berry", "Elvis Presley", "Aretha Franklin", "Jerry Lee Lewis", "Isaac Hayes", "Bon Jovi", "Dire Straits", "The Moody Blues"] 
         },
     "Carl Perkins":
         {
             "start": [1946],
-            "end": [1998]
+            "end": [1998],
+	    "influenced":["the Beatles"] 
         },
     "Little Richard":
         {
             "start": [1948],
-            "end": [1963]
+            "end": [1963],
+	    "influenced": ["The Rolling Stones", "The Beatles", "Elton John", "Elvis Presley", "Jerry Lee Lewis", "David Bowie", "Jimi Hendrix", "Bob Dylan", "James Brown", "Bobby Darin", "Otis Redding", "Sam Cooke"]
         },
     "Jackie Brenston and his Delta Cats":
         {
             "start": [1951],
-            "end": [1951]
+            "end": [1951],
+	    "influenced": ["Little Richard"]
         },
     "Elvis Presley":
         {
             "start": [1935],
-            "end": [1977]
+            "end": [1977],
+	    "influenced": ["virtually every pop, country, R&B, and rock and roll performer of the past half century"] 
+// if genre == pop || country || R&B...
         },
     "Jerry Lee Lewis":
         {
             "start": [1954],
-            "end": ["present"]
+            "end": ["present"],
+	    "influenced": ["the Beatles", "the Rolling Stones", "Elton John"]
         },
     "Chuck Berry":
         {
             "start": [1955],
-            "end": [2017]
+            "end": [2017],
+	    "influenced": ["the Beatles", "the Rolling Stones", "The Beach Boys", "Elvis Presley", "Bob Dylan", "Bruce Springsteen", "Jimi Hendrix", "ACDC", "John Doe", "Creedence Clearwater Revival"]
         },
     "John Lennon":
         {
             "start": [1957, 1980],
-            "end": [1975, 1980]
+            "end": [1975, 1980],
+	    "influenced" : ["Elton John", "Bob Dylan", "The Rolling Stones", "Oasis", "Yoko Ono", "Ray Charles", "Ike and Tina Turner", "Radiohead", "Peace Crusaders"]
         },
     "The Crickets":
         {
             "start": [1957],
-            "end": [2016]
+            "end": [2016],
+	    "influenced": ["the Beatles", "Bob Dylan", "Mick Jagger", "Keith Richards", "Elton John", "The Clash", "Eric Clapton", "Bobby Vee", "Richard Barone"]
         },
     "Carole King":
         {
             "start": [1958],
-            "end": ["present"]
+            "end": ["present"],
+	    "influenced" : ["The Drifters", "the Shirelle's", "Janelle Woods"]
+// and African American music as a whole
         },
     "George Harrison":
         {
             "start": [1958],
-            "end": [2001]
+            "end": [2001],
+	    "influenced": ["Fleetwood Mac", "Paul McCartney", "The Beatles", "Oasis","David Bowie", "Jimi Hendrix", "KISS", "the Mamas and the Papas", "Wilco"]
+//listed bands the beatles influenced: "virtually impossible to list all of the artists influenced by this game-changing band"
+
         },
     "Neil Young":
         {
