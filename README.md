@@ -1,4 +1,4 @@
-# History of Rock Visulization by The Geologists
+# History of Rock Visualization by The Geologists
 
 D3 Project by Alessando Cartegni, Karina Ionkina, Shannon Lau, and Helen Ye
 
