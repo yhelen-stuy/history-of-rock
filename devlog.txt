@@ -19,3 +19,7 @@ Sources:
 cartegniA -- 2018-04-09 13:17
 Created flask app and html file
 ----------------------------------------------------
+cartegniA -- 2018-04-10 13:09
+Fixed flask app so that it runs
+Added support for svg in html, created svg.js as a temp svg file
+----------------------------------------------------
