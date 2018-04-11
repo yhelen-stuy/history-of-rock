@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import json
 app = Flask(__name__)
 
-f = open("./active-years.json", 'rU')
+f = open("./bands.json", 'rU')
 bands = json.loads(f.read())
 f.close()
 
