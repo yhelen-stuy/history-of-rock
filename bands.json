@@ -9,7 +9,7 @@
         {
             "start": [1946],
             "end": [1998],
-	    "influenced":["The Beatles", "George Harrison", "John Lennon"] 
+	    "influenced":["The Beatles", "George Harrison", "John Lennon", "Paul McCartney and Wings"] 
         },
     "Little Richard":
         {
@@ -27,19 +27,19 @@
         {
             "start": [1935],
             "end": [1977],
-	    "influenced": ["virtually every pop, country, R&B, and rock and roll performer of the past half century"] 
+	    "influenced": ["Queen", "Led Zepplin", "Roxy Music", "The Rolling Stones", "Neil Young", "The Beatles", "Fleetwood Mac", "Bob Dylan", "Bruce Springsteen", "John Lennon", "Paul McCartney and Wings", "George Harrison", "Buddy Holly", "Carole King"] 
         },
     "Jerry Lee Lewis":
         {
             "start": [1954],
             "end": ["present"],
-	    "influenced": ["The Beatles", "the Rolling Stones", "Elton John"]
+	    "influenced": ["AC/DC", "Neil Young", "John Lennon", "Buddy Holly","The Beatles", "The Rolling Stones", "Elton John", "Paul McCartney and Wings"]
         },
     "Chuck Berry":
         {
             "start": [1955],
             "end": [2017],
-	    "influenced": ["The Beatles", "the Rolling Stones", "The Beach Boys", "Elvis Presley", "Bob Dylan", "Bruce Springsteen", "Jimi Hendrix", "ACDC", "John Doe", "Creedence Clearwater Revival"]
+	    "influenced": ["AC/DC", "Paul McCartney and Wings", "Bruce Springsteen", "Led Zepplin", "July", "Funkadelic", "The Grateful Dead", "Quicksilver Messenger Service", "The Who", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young", "George Harrison", "John Lennon"]
         },
     "John Lennon":
         {
