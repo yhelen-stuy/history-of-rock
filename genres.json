@@ -1,0 +1,110 @@
+{
+  "Blues": {
+    "influenced_genres": [
+      "R&B"
+    ],
+    "influenced_artists": []
+  },
+  "R&B": {
+    "influenced_genres": [
+      "Rockabilly",
+      "Hard Rock",
+      "Doo Wop"
+    ],
+    "influenced_artists": [
+      "Fats Domino",
+      "Little Richard",
+      "Chuck Berry",
+      "Ray Charles",
+      "Bo Diddley",
+      "Ike & Tina Turner"
+    ]
+  },
+  "Doo Wop": {
+    "influenced_genres": [
+      "Soul",
+      "Funk"
+    ],
+    "influenced_artists": [
+      "The Platters",
+      "The Coasters",
+      "The Drifters",
+      "The Temptations"
+    ]
+  },
+  "Soul": {
+    "influenced_genres": [
+      "Psychedelic Rock"
+    ],
+    "influenced_artists": [
+      "Janis Joplin",
+      "Gladys Knight & the Pips",
+      "Otis Redding",
+      "Sam Cooke",
+      "Marvin Gaye",
+      "Stevie Wonder",
+      "Diana Ross",
+      "James Brown",
+      "Aretha Franklin",
+      "Isaac Jayes",
+      "Al Green",
+      "Sly & the Family Stone"
+    ]
+  },
+  "Funk": {
+    "influenced_genres": [
+      "Disco"
+    ],
+    "influenced_artists": [
+      "Parliament/Funkadelic",
+      "Confunktion",
+      "Prince",
+      "Isley Brothers",
+      "Rick James"
+    ]
+  },
+  "Country": {
+    "influenced_genres": [
+      "Folk"
+    ],
+    "influenced_artists": []
+  },
+  "Folk": {
+    "influenced_genres": [
+      "Folk Rock"
+    ],
+    "influenced_artists": [
+      "Kingston Trio",
+      "Joan Baez",
+      "Peter Paul & Mary",
+      "Bob Dylan"
+    ]
+  },
+  "Folk Rock": {
+    "influenced_genres": [
+      "New Wave"
+    ],
+    "influenced_artists": [
+      "Van Morrison",
+      "Dave Mason",
+      "Creedence Clearwater Revival",
+      "Jackson Brown",
+      "Simon & Garfunkel",
+      "The Band"
+    ]
+  },
+  "Rockabilly": {
+    "influenced_genres": [
+      "Brit Invasion"
+    ],
+    "influenced_artists": [
+      "Carl Perkins",
+      "Gene Vincent",
+      "Elvis",
+      "Everly Brothers",
+      "Buddy Holly",
+      "Roy Orbison",
+      "Eddie Cochran"
+    ]
+  }
+}
