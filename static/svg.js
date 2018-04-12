@@ -47,7 +47,7 @@ var setup = function() {
         .style("fill", function (d) {
             return color(d.group);
         })
-        .call(force.drag);
+   //     .call(force.drag);
 
     force.on("tick", function () {
         link.attr("x1", function (d) {
