@@ -10,9 +10,18 @@ var genres = JSON.parse(genresJSON);
 var generateNodesLinks = function(genres) {
     var graph = { "nodes": [], "links": [] };
     // Code to modify with genres necessary
-    graph["nodes"].push({"name": "Hello", "group": 1});
+    /*graph["nodes"].push({"name": "Hello", "group": 1});
     graph["nodes"].push({"name": "World", "group": 1});
-    graph["links"].push({"source": 0, "target": 1, "value": 1});
+    graph["links"].push({"source": 0, "target": 1, "value": 1});*/
+    for (var key in genres){
+        graph["nodes"].push({"name": key, "id": key, "group": 1});
+    }
+    for (var key in genres){
+        artists = genres[key]["influenced_artists"];
+        for (var i = 0; i < artists.length; i++) {
+            graph["links"].push({"source": key, "target": artists[i],"group": 1}); 
+        }
+    }
     return graph;
 }
 
