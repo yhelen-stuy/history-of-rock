@@ -29,3 +29,7 @@ Finished adding influences data.
 yeH -- 2018-04-11 08:20
 Import data jsons to app
 ----------------------------------------------------
+yeH -- 2018-04-11 21:35
+Align band names in two datasets
+    E.g. "The Beatles" vs "Beatles"
+----------------------------------------------------
