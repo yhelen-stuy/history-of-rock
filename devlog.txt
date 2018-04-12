@@ -33,3 +33,7 @@ yeH -- 2018-04-11 21:35
 Align band names in two datasets
     E.g. "The Beatles" vs "Beatles"
 ----------------------------------------------------
+yeH -- 2018-04-11 22:25
+Setup a basic d3 model of force graph
+    Still need to use our datasets to create nodes/links instead of using random values
+----------------------------------------------------
