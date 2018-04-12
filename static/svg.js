@@ -17,7 +17,7 @@ var generateNodesLinks = function(genres) {
         graph["nodes"].push({"name": genre, "id": genre, "group": 1});
     }
     for (var genre in genres){
-        artists = genres[genre]["influenced_artists"];
+        artists = genres[genre]["influenced_genres"];
         for (var i = 0; i < artists.length; i++) {
             graph["links"].push({"source": genre, "target": artists[i],"group": 1}); 
         }
