@@ -166,7 +166,7 @@
         {
             "start": [1965, 1989, 1996],
             "end": [1972, 1989, 1996],
-            "influenced": ["Journey", "Crosby Stills & Nash", "Sly and the Family Stone", "Fleetwood Mac", "The Moody Blues"]
+            "influenced": ["Journey", "Crosby, Stills, & Nash", "Sly and the Family Stone", "Fleetwood Mac", "The Moody Blues"]
         },
     "Pink Floyd":
         {
@@ -228,7 +228,7 @@
             "end": [2017],
             "influenced": ["Nirvana", "Alice in Chains", "Motley Crue", "Van Halen","Queen", "Spinal Tap"]
         },
-    "Crosby Stills & Nash":
+    "Crosby, Stills, & Nash":
         {
             "start": [1968, 1973, 1974, 1977],
             "end": [1970, 1973, 1974, 1977],

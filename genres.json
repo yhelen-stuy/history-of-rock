@@ -47,7 +47,7 @@
       "Aretha Franklin",
       "Isaac Jayes",
       "Al Green",
-      "Sly & the Family Stone"
+      "Sly and the Family Stone"
     ]
   },
   "Funk": {
@@ -55,7 +55,7 @@
       "Disco"
     ],
     "influenced_artists": [
-      "Parliament/Funkadelic",
+      "Funkadelic",
       "Confunktion",
       "Prince",
       "Isley Brothers",
@@ -100,7 +100,7 @@
     "influenced_artists": [
       "Carl Perkins",
       "Gene Vincent",
-      "Elvis",
+      "Elvis Presley",
       "Everly Brothers",
       "Buddy Holly",
       "Roy Orbison",
@@ -128,7 +128,7 @@
     ],
     "influenced_artists": [
       "Neil Young",
-      "Crosby, Stills, Nash",
+      "Crosby, Stills, & Nash",
       "Byrds",
       "The Go-Go's",
       "Fleetwood Mac",
@@ -237,7 +237,7 @@
       "Iggy Pop",
       "The Doors",
       "Jefferson Airplane",
-      "Grateful Dead",
+      "The Grateful Dead",
       "Velvet Underground"
     ]
   },
