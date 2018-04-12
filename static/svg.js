@@ -13,13 +13,16 @@ var generateNodesLinks = function(genres) {
     /*graph["nodes"].push({"name": "Hello", "group": 1});
     graph["nodes"].push({"name": "World", "group": 1});
     graph["links"].push({"source": 0, "target": 1, "value": 1});*/
+    var counter = 0;
     for (var genre in genres){
+        genres[genre]["id"] = counter;
+        counter++;
         graph["nodes"].push({"name": genre, "id": genre, "group": 1});
     }
     for (var genre in genres){
-        artists = genres[genre]["influenced_genres"];
-        for (var i = 0; i < artists.length; i++) {
-            graph["links"].push({"source": genre, "target": artists[i],"group": 1}); 
+        influenced = genres[genre]["influenced_genres"];
+        for (var i = 0; i < influenced.length; i++) {
+            graph["links"].push({"source": genres[genre]["id"], "target": genres[influenced[i]]["id"],"group": 1}); 
         }
     }
     return graph;
@@ -50,13 +53,18 @@ var setup = function() {
 
     var node = svg.selectAll(".node")
         .data(graph.nodes)
-        .enter().append("circle")
+        .enter().append("g")
         .attr("class", "node")
+    node.append("circle")
         .attr("r", 8)
         .style("fill", function (d) {
             return color(d.group);
         })
-   //     .call(force.drag);
+    node.append("text")
+        .attr("dx", 10)
+        .attr("dy", ".35em")
+        .text(function(d) { return d.name })
+        .style("stroke", "gray");
 
     force.on("tick", function () {
         link.attr("x1", function (d) {
@@ -76,6 +84,18 @@ var setup = function() {
             return d.x;
         })
         .attr("cy", function (d) {
+            return d.y;
+        });
+        d3.selectAll("circle").attr("cx", function (d) {
+            return d.x;
+        })
+        .attr("cy", function (d) {
+            return d.y;
+        });
+        d3.selectAll("text").attr("x", function (d) {
+            return d.x;
+        })
+        .attr("y", function (d) {
             return d.y;
         });
     });
