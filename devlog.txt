@@ -37,7 +37,12 @@ yeH -- 2018-04-11 22:25
 Setup a basic d3 model of force graph
     Still need to use our datasets to create nodes/links instead of using random values
 ----------------------------------------------------
-yeH -- 2018-04-11 17:57
+ionkinaK, lauS, yeH -- 2018-04-12 13:19
+Setup dictionary of nodes and links for the force graph
+    Node has name and group
+    Link has source, target, and value (we have not determined purpose of value)
+----------------------------------------------------
+yeH -- 2018-04-12 17:57
 Add labels to each node in force graph
 Add ids to genres so that the force graph links can link by id
 ----------------------------------------------------
