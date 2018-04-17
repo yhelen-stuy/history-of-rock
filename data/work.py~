@@ -1,0 +1,6 @@
+import json
+from pprint import pprint
+
+data = json.load(open('static/timeline_data'))
+
+pprint(data)

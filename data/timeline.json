@@ -1,0 +1,337 @@
+{
+    "Sister Rosetta Tharpe":
+        {
+            "start": [1919],
+            "end": [1973]
+        },
+    "Carl Perkins":
+        {
+            "start": [1946],
+            "end": [1998]
+        },
+    "Little Richard":
+        {
+            "start": [1948],
+            "end": [1963]
+        },
+    "Jackie Brenston and his Delta Cats":
+        {
+            "start": [1951],
+            "end": [1951]
+        },
+    "Elvis Presley":
+        {
+            "start": [1935],
+            "end": [1977]
+        },
+    "Jerry Lee Lewis":
+        {
+            "start": [1954],
+            "end": ["present"]
+        },
+    "Chuck Berry":
+        {
+            "start": [1955],
+            "end": [2017]
+        },
+    "John Lennon":
+        {
+            "start": [1957, 1980],
+            "end": [1975, 1980]
+        },
+    "The Crickets":
+        {
+            "start": [1957],
+            "end": [2016]
+        },
+    "Carole King":
+        {
+            "start": [1958],
+            "end": ["present"]
+        },
+    "George Harrison":
+        {
+            "start": [1958],
+            "end": [2001]
+        },
+    "Neil Young":
+        {
+            "start": [1960],
+            "end": ["present"]
+        },
+    "The Beatles":
+        {
+            "start": [1960],
+            "end": [1970]
+        },
+    "Bob Dylan":
+        {
+            "start": [1961],
+            "end": ["present"]
+        },
+    "David Bowie":
+        {
+            "start": [1962],
+            "end": [2016]
+        },
+    "Status Quo":
+        {
+            "start": [1962],
+            "end": ["present"]
+        },
+    "The Rolling Stones":
+        {
+            "start": [1962],
+            "end": ["present"]
+        },
+    "Eric Clapton":
+        {
+            "start": [1963],
+            "end": ["present"]
+        },
+    "Jimi Hendrix":
+        {
+            "start": [1963],
+            "end": [1970]
+        },
+    "John Mayall and The Bluesbreakers":
+        {
+            "start": [1963, 1982],
+            "end": [1969, 2008]
+        },
+    "The Jimi Hendrix Experience":
+        {
+            "start": [1963],
+            "end": [1970]
+        },
+    "Rod Stewart":
+        {
+            "start": [1964],
+            "end": ["present"]
+        },
+    "Spinal Tap":
+        {
+            "start": [1964, 1992, 2001, 2007, 2009],
+            "end": [1984, 1992, 2001, 2007, 2009]
+        },
+    "The Moody Blues":
+        {
+            "start": [1964, 1977],
+            "end": [1974, "present"]
+        },
+    "The Who":
+        {
+            "start": [1964, 1982, 189, 1999],
+            "end": [1982, 1989, "present"]
+        },
+    "Big Brother and the Holding Company":
+        {
+            "start": [1965, 1969, 1987],
+            "end": [1968, 1972, "present"]
+        },
+    "Country Joe and the Fish":
+        {
+            "start": [1965],
+            "end": [1971]
+        },
+    "Jefferson Airplane":
+        {
+            "start": [1965, 1989, 1996],
+            "end": [1972, 1989, 1996]
+        },
+    "Pink Floyd":
+        {
+            "start": [1965],
+            "end": [1995]
+        },
+    "Quicksilver Messenger Service":
+        {
+            "start": [1965, 2006],
+            "end": [1979, "present"]
+        },
+    "The Doors":
+        {
+            "start": [1965, 1978, 1993, 1997, 2000, 2011],
+            "end": [1973, 1978, 1993, 1997, 2000, 2011]
+        },
+    "The Grateful Dead":
+        {
+            "start": [1965],
+            "end": [1995]
+        },
+    "Cream":
+        {
+            "start": [1966],
+            "end": [1968]
+        },
+    "Fleetwood Mac":
+        {
+            "start": [1967, 1997],
+            "end": [1995, "present"]
+        },
+    "Joni Mitchell":
+        {
+            "start": [1967],
+            "end": [2009]
+        },
+    "Santana":
+        {
+            "start": [1967],
+            "end": ["present"]
+        },
+    "Sly and the Family Stone":
+        {
+            "start": [1967, 2006, 2012],
+            "end": [1983, 2006, 2012]
+        },
+    "Black Sabbath":
+        {
+            "start": [1968],
+            "end": [2017]
+        },
+    "Crosby Stills & Nash":
+        {
+            "start": [1968, 1973, 1974, 1977],
+            "end": [1970, 1973, 1974, 1977]
+        },
+    "Funkadelic":
+        {
+            "start": [1968],
+            "end": [1981]
+        },
+    "July":
+        {
+            "start": [1968],
+            "end": [1969]
+        },
+    "Led Zeppelin":
+        {
+            "start": [1968],
+            "end": [1980]
+        },
+    "Bruce Springsteen":
+        {
+            "start": [1969],
+            "end": ["present"]
+        },
+    "Queen":
+        {
+            "start": [1970],
+            "end": ["present"]
+        },
+    "Patti Smith":
+        {
+            "start": [1971],
+            "end": ["present"]
+        },
+    "Paul McCartney and Wings":
+        {
+            "start": [1971],
+            "end": [1981]
+        },
+    "Roxy Music":
+        {
+            "start": [1971, 1979, 2001],
+            "end": [1976, 1983, 2011]
+        },
+    "Van Halen":
+        {
+            "start": [1972],
+            "end": ["present"]
+        },
+    "AC/DC":
+        {
+            "start": [1973],
+            "end": ["present"]
+        },
+    "Journey":
+        {
+            "start": [1973],
+            "end": ["present"]
+        },
+    "Kate Bush":
+        {
+            "start": [1975],
+            "end": ["present"]
+        },
+    "U2":
+        {
+            "start": [1976],
+            "end": ["present"]
+        },
+    "Dire Straits":
+        {
+            "start": [1977, 1991],
+            "end": [1988, 1995]
+        },
+    "Motley Crue":
+        {
+            "start": [1980],
+            "end": [2015]
+        },
+    "REM":
+        {
+            "start": [1980],
+            "end": [2011]
+        },
+    "Run DMC":
+        {
+            "start": [1981, 2012],
+            "end": [2092, 2012]
+        },
+    "The Offspring":
+        {
+            "start": [1984],
+            "end": ["present"]
+        },
+    "Radiohead":
+        {
+            "start": [1985],
+            "end": ["present"]
+        },
+    "Alice in Chains":
+        {
+            "start": [1987, 2005],
+            "end": [2002, "present"]
+        },
+    "Green Day":
+        {
+            "start": [1987],
+            "end": ["present"]
+        },
+    "Nirvana":
+        {
+            "start": [1987],
+            "end": [1994]
+        },
+    "Pearl Jam":
+        {
+            "start": [1990],
+            "end": ["present"]
+        },
+    "Limp Bizkit":
+        {
+            "start": [1994, 2009],
+            "end": [2005, "present"]
+        },
+    "Snow Patrol":
+        {
+            "start": [1996],
+            "end": ["present"]
+        },
+    "Coldplay":
+        {
+            "start": [1985],
+            "end": ["present"]
+        },
+    "The White Stripes":
+        {
+            "start": [1997],
+            "end": [2011]
+        },
+    "The Darkness":
+        {
+            "start": [2000, 2011],
+            "end": [2006, "present"]
+        }
+}
