@@ -1,4 +1,5 @@
 var svg = d3.select("#vimage");
+var svg2 = d3.select("#vimage2");
 
 var width = svg.attr("width");
 var height = svg.attr("height");
@@ -37,7 +38,7 @@ var setup = function() {
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
-        .charge(-120)
+        .charge(-620)
         .linkDistance(30)
         .size([width, height]);
 
@@ -131,7 +132,7 @@ var testData = [
 		]; 
 
 
-svg.attr("width", 500).datum(testData).call(chart);
+svg2.attr("width", 1000).datum(testData).call(chart);
 
 
 setup();
