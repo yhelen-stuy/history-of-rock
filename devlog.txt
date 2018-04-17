@@ -49,3 +49,6 @@ Add ids to genres so that the force graph links can link by id
 cartegniA -- 2018-04-16 13:15
 Finished logo
 ----------------------------------------------------
+ionkinaK -- 2018-04-16 13:19
+Create a D3 timeline template
+----------------------------------------------------
