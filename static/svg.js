@@ -18,7 +18,7 @@ var generateNodesLinks = function(genres) {
     for (var genre in genres){
         genres[genre]["id"] = counter;
         counter++;
-        graph["nodes"].push({"name": genre, "id": genre, "group": 1});
+        graph["nodes"].push({"name": genre, "id": genre, "group": 1, "radius": genres[genre]["influenced_artists"].length + 5});
     }
     for (var genre in genres){
         influenced = genres[genre]["influenced_genres"];
@@ -57,7 +57,10 @@ var setup = function() {
         .enter().append("g")
         .attr("class", "node")
     node.append("circle")
-        .attr("r", 8)
+        .attr("r", function (d) {
+	    console.log(d.radius);
+	    return d.radius;
+	})
         .style("fill", function (d) {
             return color(d.group);
         })
