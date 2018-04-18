@@ -52,3 +52,10 @@ Finished logo
 ionkinaK -- 2018-04-16 13:19
 Create a D3 timeline template
 ----------------------------------------------------
+ionkinaK -- 2018-04-17 13:19
+Work on adding band data to be usable in timeline
+    Data needs to be in specifc dictionary format
+----------------------------------------------------
+lauS -- 2018-04-17 13:19
+Work on making node size on genres force graph variable depending on how many influenced artists it has
+----------------------------------------------------
