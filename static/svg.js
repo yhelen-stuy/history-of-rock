@@ -121,21 +121,27 @@ var setup = function() {
         .style("opacity", "0.6");
 }
 
+var timelineSetup = function() {
+    // found in timeline_data.js
+    timelineDataSetup();
+    var chart = d3.timeline()
+                .tickFormat(
+                    {
+                        format: d3.time.format("%Y"),
+                        tickTime: d3.time.years,
+                        tickInterval: 10,
+                        tickSize: 1
+                    })
+                .beginning(new Date(1919, 0))
+                .ending(new Date())
+                // remove once we figure out the stuff about only showing up on click
+                .stack()
 
-var chart = d3.timeline();
-
-var testData = [
-		{label: "person a", times: [
-{"starting_time": 1355752800000, "ending_time": 1355759900000},
-{"starting_time": 1355767900000, "ending_time": 1355774400000}]},
-		{ label: "person b", times: [
-{"starting_time": 1355759910000, "ending_time": 1355761900000}]},
-		{ label: "person c", times: [
-{"starting_time": 1355761910000, "ending_time": 1355763910000}]}
-		]; 
-
-
-svg2.attr("width", 1000).datum(testData).call(chart);
-
+    svg2.attr("height", 2000)
+        .attr("width", 1000)
+        .datum(timelineData)
+        .call(chart)
+}
 
 setup();
+timelineSetup();

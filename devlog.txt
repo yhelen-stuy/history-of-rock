@@ -59,3 +59,11 @@ Work on adding band data to be usable in timeline
 lauS -- 2018-04-17 13:19
 Work on making node size on genres force graph variable depending on how many influenced artists it has
 ----------------------------------------------------
+yeH -- 2018-04-17 22:26
+Add data to timeline by:
+    1. Writing data from json file to a separate js file
+    2. Reading all the years in the times for bands and making the into JS Date objects
+    3. Changing tick format to go by years
+Currently timeline is stacked, which will be removed once the
+interactivity of the website is added
+----------------------------------------------------
