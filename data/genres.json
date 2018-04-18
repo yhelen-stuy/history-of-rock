@@ -83,7 +83,10 @@
     "influenced_genres": [
       "New Wave"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "Neil Young",
+	  
+	  
       "Bob Dylan",
       "Van Morrison",
       "Dave Mason",
@@ -97,7 +100,9 @@
     "influenced_genres": [
       "Brit Invasion"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "The Crickets",
+	  
       "Carl Perkins",
       "Gene Vincent",
       "Elvis Presley",
@@ -114,7 +119,9 @@
       "Pop Rock",
       "Hard Rock"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "The Beatles",
+	  
       "Rolling Stones",
       "Animals",
       "Yardbirds",
@@ -126,8 +133,13 @@
       "New Wave",
       "Hard Rock"
     ],
-    "influenced_artists": [
-      "Neil Young",
+      "influenced_artists": [
+	  "George Harrison",
+	  "Kate Bush",
+	  "REM",
+	  "Paul McCartney and Wings",
+	  "Snow Patrol",
+	  
       "Crosby, Stills, & Nash",
       "Byrds",
       "The Go-Go's",
@@ -137,7 +149,6 @@
       "Elton John",
       "Neil Diamond",
       "Bonnie Raitt",
-      "The Beatles",
       "Kinks"
     ]
   },
@@ -147,7 +158,13 @@
       "Grunge",
       "Punk"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "Queen",
+	  "The White Stripes",
+	  "Bruce Springsteen",
+	  "Spinal Tap",
+	  "Journey",
+	  
       "Ted Nugent",
       "Grand Funk",
       "AC/DC",
@@ -188,7 +205,10 @@
     "influenced_genres": [
       "80's"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "The Offspring",
+	  "Green Day",
+	  
       "Patti Smith",
       "Buzzcocks",
       "Richard Hell",
@@ -204,7 +224,10 @@
       "Grunge",
       "Punk"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "Limp Bizkit",
+	  "Motley Crue",
+	  
       "Motorhead",
       "Black Sabbath",
       "Dio",
@@ -215,7 +238,9 @@
   },
   "80's": {
     "influenced_genres": [],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "Rod Stewart",
+	  
       "Dead Kennedys",
       "The Replacements",
       "Minutemen",
@@ -233,7 +258,11 @@
       "Prog Rock",
       "Glitter/Glam"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "Santana",
+	  "Big Brother and the Holding Company",
+	  "July",
+	  
       "Iggy Pop",
       "The Doors",
       "Jefferson Airplane",
@@ -245,7 +274,9 @@
     "influenced_genres": [
       "?"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "The Moody Blues",
+	  
       "Yes",
       "Pink Floyd",
       "Genesis",
