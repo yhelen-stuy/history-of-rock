@@ -3,7 +3,12 @@
     "influenced_genres": [
       "R&B"
     ],
-    "influenced_artists": []
+      "influenced_artists": [
+	  "Jackie Brenston and his Delta Cats",
+	  "Eric Clapton",
+	  "John Mayall and The Bluesbreakers",
+	  "Dire Straits"
+      ]
   },
   "R&B": {
     "influenced_genres": [
@@ -11,7 +16,9 @@
       "Hard Rock",
       "Doo Wop"
     ],
-    "influenced_artists": [
+      "influenced_artists": [
+	  "Sister Rosetta Tharpe",
+	  
       "Fats Domino",
       "Little Richard",
       "Chuck Berry",
@@ -85,6 +92,7 @@
     ],
       "influenced_artists": [
 	  "Neil Young",
+	  "Joni Mitchell",
 	  
 	  
       "Bob Dylan",
@@ -102,6 +110,7 @@
     ],
       "influenced_artists": [
 	  "The Crickets",
+	  "Jerry Lee Lewis",
 	  
       "Carl Perkins",
       "Gene Vincent",
@@ -139,6 +148,12 @@
 	  "REM",
 	  "Paul McCartney and Wings",
 	  "Snow Patrol",
+	  "Jphn Lennon",
+	  "Carole King",
+	  "U2",
+	  "Journey",
+	  "Coldplay",
+	  "Radiohead",
 	  
       "Crosby, Stills, & Nash",
       "Byrds",
@@ -163,7 +178,8 @@
 	  "The White Stripes",
 	  "Bruce Springsteen",
 	  "Spinal Tap",
-	  "Journey",
+	  "Status Quo",
+	  "The Darkness",
 	  
       "Ted Nugent",
       "Grand Funk",
@@ -262,6 +278,8 @@
 	  "Santana",
 	  "Big Brother and the Holding Company",
 	  "July",
+	  "Quicksilver Messenger Service",
+	  "Country Joe and the Fish",
 	  
       "Iggy Pop",
       "The Doors",
