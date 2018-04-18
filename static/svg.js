@@ -38,24 +38,32 @@ var setup = function() {
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
+
         .charge(-620)
         .linkDistance(30)
         .size([width, height]);
 
     force.nodes(graph.nodes)
+    
         .links(graph.links)
         .start();
 
     var link = svg.selectAll(".link")
+    
         .data(graph.links)
         .enter().append("line")
         .attr("class", "link")
         .style("marker-end",  "url(#suit)"); // Modified line 
 
     var node = svg.selectAll(".node")
+
         .data(graph.nodes)
         .enter().append("g")
         .attr("class", "node")
+
+
+
+    
     node.append("circle")
         .attr("r", function (d) {
 	    console.log(d.radius);
@@ -63,12 +71,24 @@ var setup = function() {
 	})
         .style("fill", function (d) {
             return color(d.group);
-        })
+        });
+
+    var select = function(e){
+    console.log(this.innerHTML.text);
+    }
+
+    node.on("click", select)
+
+    
+    
+
     node.append("text")
         .attr("dx", 10)
         .attr("dy", ".35em")
         .text(function(d) { return d.name })
         .style("stroke", "gray");
+
+
 
     force.on("tick", function () {
         link.attr("x1", function (d) {
@@ -93,6 +113,7 @@ var setup = function() {
         d3.selectAll("circle").attr("cx", function (d) {
             return d.x;
         })
+	
         .attr("cy", function (d) {
             return d.y;
         });
@@ -145,3 +166,7 @@ var timelineSetup = function() {
 
 setup();
 timelineSetup();
+
+
+
+
