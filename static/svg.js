@@ -74,7 +74,7 @@ var setup = function() {
         });
 
     var select = function(e){
-    console.log(this.innerHTML.text);
+	console.log(this.textContent);
     }
 
     node.on("click", select)
