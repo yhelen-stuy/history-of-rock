@@ -67,3 +67,9 @@ Add data to timeline by:
 Currently timeline is stacked, which will be removed once the
 interactivity of the website is added
 ----------------------------------------------------
+lauS -- 2018-04-18 13:19
+Remove bands that are not themselves going to be a node on the graph
+----------------------------------------------------
+cartegniA -- 2018-04-18 13:19
+Add bands on one dataset to the genre dataset which will be used to draw nodes
+----------------------------------------------------
