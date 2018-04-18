@@ -3,7 +3,7 @@
         {
             "start": [1919],
             "end": [1973],
-	    "influenced": ["Johnny Cash", "Chuck Berry", "Elvis Presley", "Aretha Franklin", "Jerry Lee Lewis", "Isaac Hayes", "Bon Jovi", "Dire Straits", "The Moody Blues"] 
+	    "influenced": ["Chuck Berry", "Elvis Presley", "Jerry Lee Lewis", "Isaac Hayes", "Dire Straits", "The Moody Blues"] 
         },
     "Carl Perkins":
         {
@@ -15,7 +15,7 @@
         {
             "start": [1948],
             "end": [1963],
-	    "influenced": ["The Rolling Stones", "The Beatles", "Elton John", "Elvis Presley", "Jerry Lee Lewis", "David Bowie", "Jimi Hendrix", "Bob Dylan", "James Brown", "Bobby Darin", "Otis Redding", "Sam Cooke", "Queen", "Status Quo", "Roxy Music", "Neil Young", "John Lennon", "Paul McCartney and Wings", "Funkadelic", "Carole King"]
+	    "influenced": ["The Rolling Stones", "The Beatles", "Elvis Presley", "Jerry Lee Lewis", "David Bowie", "Jimi Hendrix", "Bob Dylan", "Queen", "Status Quo", "Roxy Music", "Neil Young", "John Lennon", "Paul McCartney and Wings", "Funkadelic", "Carole King"]
         },
     "Jackie Brenston and his Delta Cats":
         {
@@ -27,43 +27,43 @@
         {
             "start": [1935],
             "end": [1977],
-	    "influenced": ["Queen", "Led Zepplin", "Roxy Music", "The Rolling Stones", "Neil Young", "The Beatles", "Fleetwood Mac", "Bob Dylan", "Bruce Springsteen", "John Lennon", "Paul McCartney and Wings", "George Harrison", "Buddy Holly", "Carole King"] 
+	    "influenced": ["Queen", "Led Zepplin", "Roxy Music", "The Rolling Stones", "Neil Young", "The Beatles", "Fleetwood Mac", "Bob Dylan", "Bruce Springsteen", "John Lennon", "Paul McCartney and Wings", "George Harrison", "Carole King"] 
         },
     "Jerry Lee Lewis":
         {
             "start": [1954],
             "end": ["present"],
-	    "influenced": ["AC/DC", "Neil Young", "John Lennon", "Buddy Holly","The Beatles", "The Rolling Stones", "Elton John", "Paul McCartney and Wings"]
+	    "influenced": ["AC/DC", "Neil Young", "John Lennon", "The Beatles", "The Rolling Stones", "Paul McCartney and Wings"]
         },
     "Chuck Berry":
         {
             "start": [1955],
             "end": [2017],
-	    "influenced": ["AC/DC", "Paul McCartney and Wings", "Bruce Springsteen", "Led Zepplin", "July", "Funkadelic", "The Grateful Dead", "Quicksilver Messenger Service", "The Who", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young", "George Harrison", "John Lennon"]
+	    "influenced": ["AC/DC", "Paul McCartney and Wings", "Bruce Springsteen", "Led Zepplin", "July", "Funkadelic", "The Grateful Dead", "The Who", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young", "George Harrison", "John Lennon"]
         },
     "John Lennon":
         {
             "start": [1957, 1980],
             "end": [1975, 1980],
-	    "influenced" : ["Elton John", "Bob Dylan", "The Rolling Stones", "Oasis", "Yoko Ono", "Ray Charles", "Ike and Tina Turner", "Radiohead", "Peace Crusaders"]
+	    "influenced" : ["Bob Dylan", "The Rolling Stones", "Radiohead"]
         },
     "The Crickets":
         {
             "start": [1957],
             "end": [2016],
-	    "influenced": ["The Beatles", "Bob Dylan", "Mick Jagger", "Keith Richards", "Elton John", "The Clash", "Eric Clapton", "Bobby Vee", "Richard Barone"]
+	    "influenced": ["The Beatles", "Bob Dylan", "Eric Clapton"]
         },
     "Carole King":
         {
             "start": [1958],
             "end": ["present"],
-	    "influenced" : ["The Drifters", "the Shirelle's", "Janelle Woods"]
+	    "influenced" : []
         },
     "George Harrison":
         {
             "start": [1958],
             "end": [2001],
-	    "influenced": ["Fleetwood Mac", "Paul McCartney", "The Beatles", "Oasis","David Bowie", "Jimi Hendrix", "KISS", "the Mamas and the Papas", "Wilco"]
+	    "influenced": ["Fleetwood Mac", "Paul McCartney", "The Beatles", "David Bowie", "Jimi Hendrix"]
 
         },
     "Neil Young":
@@ -118,12 +118,6 @@
         {
             "start": [1963, 1982],
             "end": [1969, 2008],
-	    "influenced": []
-        },
-    "The Jimi Hendrix Experience":
-        {
-            "start": [1963],
-            "end": [1970],
 	    "influenced": []
         },
     "Rod Stewart":
