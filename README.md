@@ -2,6 +2,38 @@
 
 D3 Project by Alessando Cartegni, Karina Ionkina, Shannon Lau, and Helen Ye
 
+## Running the Project
+
+To run this project, you will need `python 2.7` and `Flask`.
+
+1. Clone the repository
+
+```
+$ git clone https://github.com/yhelen-stuy/the-geologists.git ~/the-geologists
+```
+
+2. Install `Flask` (We recommend using a python virtual environment. We have provided instructions for this.)
+
+Click [here](https://virtualenv.pypa.io/en/stable/installation/) for instructions to install `virtualenv`, and [here](https://virtualenv.pypa.io/en/stable/reference/#virtualenv-command) for instructions to create a virtual environment.
+
+Activate your virtual environment with:
+
+```
+$ . <name of virtualenv>/bin/activate
+```
+
+Install `Flask`.
+```
+$ pip install flask
+```
+
+3. Launch
+
+```
+$ python ~/the-geologists/app.py
+```
+Navigate to `localhost:5000` in a browser and enjoy!
+
 ## Data
 
 1. [This link](https://adammarxsmind.com/2015/03/29/almost-every-rock-poster-sticker-reference-and-list-in-school-of-rock/) is a page that lists all the genres and artists in the School of Rock blackboard, which displays a web of genres/artists, with artists listed under each. This displays the evolution and progress of rock music.
