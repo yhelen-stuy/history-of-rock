@@ -74,6 +74,10 @@ var setup = function() {
         });
 
 
+    //NOTE: What we need to do for this to look good is place every band in 
+    //bands.json into the lists in genres.json
+    //That way we will have more info appear when each node is clicked!
+
     var select = function(e){
 	var genre = this.textContent;
 	var inf_bands = genres[genre]["influenced_artists"]
