@@ -73,14 +73,37 @@ var setup = function() {
             return color(d.group);
         });
 
+
     var select = function(e){
-	console.log(this.textContent);
+	var genre = this.textContent;
+	var inf_bands = genres[genre]["influenced_artists"]
+	console.log(inf_bands);
+	var new_data = []
+	for (var i = 0; i < timelineData.length; i++){
+	    //console.log(inf_bands);
+	    //	    console.log(timelineData[i]["label"]);
+
+	    console.log("IS");
+	    console.log(timelineData[i]["label"]);
+	    console.log("in inf bands?");
+	    console.log(inf_bands.indexOf(timelineData[i]["label"]) > -1);
+	    if  (inf_bands.indexOf(timelineData[i]["label"]) > -1){
+		    new_data.push(timelineData[i]);
+	    }
+	}
+	console.log(new_data);
+	    timelineSetup(new_data);
     }
 
-    node.on("click", select)
 
-    
-    
+
+
+
+    node.on("click", select)    
+
+
+
+
 
     node.append("text")
         .attr("dx", 10)
@@ -142,7 +165,7 @@ var setup = function() {
         .style("opacity", "0.6");
 }
 
-var timelineSetup = function() {
+var timelineSetup = function(data) {
     // found in timeline_data.js
     timelineDataSetup();
     var chart = d3.timeline()
@@ -160,13 +183,18 @@ var timelineSetup = function() {
 
     svg2.attr("height", 2000)
         .attr("width", 1000)
-        .datum(timelineData)
+        .datum(data)
         .call(chart)
 }
 
 setup();
-timelineSetup();
+
+//to restore older version:
+//timelineSetup();
 
 
+
+
+    
 
 
