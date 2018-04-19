@@ -395,5 +395,125 @@
             "start": [2000, 2011],
             "end": [2006, "present"],
             "influenced": []
-        }
+        },
+    "Fats Domino":
+        {
+            "start": [1942],
+            "end": [2017],
+            "influenced": []
+        },
+    "Ray Charles":
+        {
+            "start": [1947],
+            "end": [2004],
+            "influenced": []
+        },
+    "Bo Diddley":
+        {
+            "start": [1943],
+            "end": [2006],
+            "influenced": []
+        },
+    "Ike & Tina Turner":
+        {
+            "start": [1960],
+            "end": [1976],
+            "influenced": []
+        },
+    "The Platters":
+        {
+            "start": [1954],
+            "end": [1970],
+            "influenced": []
+        },
+    "The Coasters":
+        {
+            "start": [1955],
+            "end": [1982],
+            "influenced": []
+        },
+    "The Drifters":
+        {
+            "start": [1953],
+            "end": ["present"],
+            "influenced": []
+        },
+    "The Coasters":
+        {
+            "start": [1955],
+            "end": [1982],
+            "influenced": []
+        },
+    "The Temptations":
+        {
+            "start": [1960],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Gladys Knight & the Pips":
+        {
+            "start": [1952],
+            "end": [1989],
+            "influenced": []
+        },
+    "Otis Redding":
+        {
+            "start": [1958],
+            "end": [1967],
+            "influenced": []
+        },
+    "Sam Cooke":
+        {
+            "start": [1951],
+            "end": [1964],
+            "influenced": []
+        },
+    "Marvin Gaye":
+        {
+            "start": [1959],
+            "end": [1984],
+            "influenced": []
+        },
+    "Setvie Wonder":
+        {
+            "start": [1961],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Diana Ross":
+        {
+            "start": [1959],
+            "end": ["present"],
+            "influenced": []
+        },
+    "James Brown":
+        {
+            "start": [1953, 1991],
+            "end": [1988, 2006],
+            "influenced": []
+        },
+    "Aretha Franklin":
+        {
+            "start": [1956],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Isaac Hayes":
+        {
+            "start": [1963],
+            "end": [2008],
+            "influenced": []
+        },
+    "Al Green":
+        {
+            "start": [1956],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Con Funk Shun":
+        {
+            "start": [1969, 1993],
+            "end": [1986, "present"],
+            "influenced": []
+        },
 }
