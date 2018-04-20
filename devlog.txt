@@ -73,3 +73,6 @@ Remove bands that are not themselves going to be a node on the graph
 cartegniA -- 2018-04-18 13:19
 Add bands on one dataset to the genre dataset which will be used to draw nodes
 ----------------------------------------------------
+cartegniA -- 2018-04-19 13:19
+Add bands not in the bands.json file but in the genres.json file to the bands file
+----------------------------------------------------
