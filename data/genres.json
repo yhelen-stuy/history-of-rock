@@ -74,7 +74,12 @@
       "Folk",
       "Rockabilly"
     ],
-    "influenced_artists": []
+      "influenced_artists": [
+	  "Johnny Cash",
+	  "Willie Nelson",
+	  "Hank Williams",
+	  "Dolly Parton"
+      ]
   },
   "Folk": {
     "influenced_genres": [

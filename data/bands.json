@@ -515,5 +515,83 @@
             "start": [1969, 1993],
             "end": [1986, "present"],
             "influenced": []
+        },
+    "Prince":
+        {
+            "start": [1975],
+            "end": [2016],
+            "influenced": []
+        },
+    "Isley Brothers":
+        {
+            "start": [1954],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Prince":
+        {
+            "start": [1975],
+            "end": [2016],
+            "influenced": []
+        },
+    "Rick James":
+        {
+            "start": [1965, 1996, 2004],
+            "end": [1990, 1998, 2004],
+            "influenced": []
+        },
+    "Johnny Cash":
+        {
+            "start": [1954],
+            "end": [2003],
+            "influenced": []
+        },
+    "Willie Nelson":
+        {
+            "start": [1956],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Hank Williams":
+        {
+            "start": [1937],
+            "end": [1953],
+            "influenced": []
+        },
+    "Dolly Parton":
+        {
+            "start": [1959],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Kingston Trio":
+        {
+            "start": [1957],
+            "end": [1967],
+            "influenced": []
+        },
+    "Joan Baez":
+        {
+            "start": [1958],
+            "end": ["present"],
+            "influenced": []
+        },
+    "Creedence Clearwater Revival":
+        {
+            "start": [1967],
+            "end": [1972],
+            "influenced": []
+        },
+    "Simon & Garfunkel":
+        {
+            "start": [1956],
+            "end": [1970],
+            "influenced": []
+        },
+    "Buddy Holly":
+        {
+            "start": [1952],
+            "end": [1959],
+            "influenced": []
         }
 }
