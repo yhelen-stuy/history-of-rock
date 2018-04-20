@@ -91,7 +91,7 @@ var setup = function() {
 	    }
 	}
 	console.log(new_data);
-	    timelineSetup(new_data);
+	timelineSetup(new_data);
     }
 
 
@@ -165,8 +165,6 @@ var setup = function() {
 }
 
 var timelineSetup = function(data) {
-    // found in timeline_data.js
-    timelineDataSetup();
     
     var chart = d3.timeline()
                 .tickFormat(
@@ -180,8 +178,10 @@ var timelineSetup = function(data) {
                 .ending(new Date())
                 // remove once we figure out the stuff about only showing up on click
                 .stack()
-    
+
+    console.log("Appending timeline");
     svg2 = d3.select("#timeline1").append("svg")
+	.attr("id", "vimage2")
 	.attr("height", 2000)
         .attr("width", 1000)
         .datum(data)
@@ -193,6 +193,8 @@ setup();
 //to restore older version:
 //timelineSetup();
 
+// found in timeline_data.js
+timelineDataSetup();
 
 
 
