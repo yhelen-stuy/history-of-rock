@@ -1,597 +1,597 @@
 {
     "Sister Rosetta Tharpe":
-        {
-            "start": [1919],
-            "end": [1973],
-	    "influenced": ["Chuck Berry", "Elvis Presley", "Jerry Lee Lewis", "Isaac Hayes", "Dire Straits", "The Moody Blues"] 
-        },
+    {
+        "start": [1919],
+        "end": [1973],
+        "influenced": ["Chuck Berry", "Elvis Presley", "Jerry Lee Lewis", "Isaac Hayes", "Dire Straits", "The Moody Blues"] 
+    },
     "Carl Perkins":
-        {
-            "start": [1946],
-            "end": [1998],
-	    "influenced":["The Beatles", "George Harrison", "John Lennon", "Paul McCartney and Wings"] 
-        },
+    {
+        "start": [1946],
+        "end": [1998],
+        "influenced":["The Beatles", "George Harrison", "John Lennon", "Paul McCartney and Wings"] 
+    },
     "Little Richard":
-        {
-            "start": [1948],
-            "end": [1963],
-	    "influenced": ["The Rolling Stones", "The Beatles", "Elvis Presley", "Jerry Lee Lewis", "David Bowie", "Jimi Hendrix", "Bob Dylan", "Queen", "Status Quo", "Roxy Music", "Neil Young", "John Lennon", "Paul McCartney and Wings", "Funkadelic", "Carole King"]
-        },
+    {
+        "start": [1948],
+        "end": [1963],
+        "influenced": ["The Rolling Stones", "The Beatles", "Elvis Presley", "Jerry Lee Lewis", "David Bowie", "Jimi Hendrix", "Bob Dylan", "Queen", "Status Quo", "Roxy Music", "Neil Young", "John Lennon", "Paul McCartney and Wings", "Funkadelic", "Carole King"]
+    },
     "Jackie Brenston and his Delta Cats":
-        {
-            "start": [1951],
-            "end": [1951],
-	    "influenced": ["Little Richard"]
-        },
+    {
+        "start": [1951],
+        "end": [1951],
+        "influenced": ["Little Richard"]
+    },
     "Elvis Presley":
-        {
-            "start": [1935],
-            "end": [1977],
-	    "influenced": ["Queen", "Led Zepplin", "Roxy Music", "The Rolling Stones", "Neil Young", "The Beatles", "Fleetwood Mac", "Bob Dylan", "Bruce Springsteen", "John Lennon", "Paul McCartney and Wings", "George Harrison", "Carole King"] 
-        },
+    {
+        "start": [1935],
+        "end": [1977],
+        "influenced": ["Queen", "Led Zepplin", "Roxy Music", "The Rolling Stones", "Neil Young", "The Beatles", "Fleetwood Mac", "Bob Dylan", "Bruce Springsteen", "John Lennon", "Paul McCartney and Wings", "George Harrison", "Carole King"] 
+    },
     "Jerry Lee Lewis":
-        {
-            "start": [1954],
-            "end": ["present"],
-	    "influenced": ["AC/DC", "Neil Young", "John Lennon", "The Beatles", "The Rolling Stones", "Paul McCartney and Wings"]
-        },
+    {
+        "start": [1954],
+        "end": ["present"],
+        "influenced": ["AC/DC", "Neil Young", "John Lennon", "The Beatles", "The Rolling Stones", "Paul McCartney and Wings"]
+    },
     "Chuck Berry":
-        {
-            "start": [1955],
-            "end": [2017],
-	    "influenced": ["AC/DC", "Paul McCartney and Wings", "Bruce Springsteen", "Led Zepplin", "July", "Funkadelic", "The Grateful Dead", "The Who", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young", "George Harrison", "John Lennon"]
-        },
+    {
+        "start": [1955],
+        "end": [2017],
+        "influenced": ["AC/DC", "Paul McCartney and Wings", "Bruce Springsteen", "Led Zepplin", "July", "Funkadelic", "The Grateful Dead", "The Who", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young", "George Harrison", "John Lennon"]
+    },
     "John Lennon":
-        {
-            "start": [1957, 1980],
-            "end": [1975, 1980],
-	    "influenced" : ["Bob Dylan", "The Rolling Stones", "Radiohead"]
-        },
+    {
+        "start": [1957, 1980],
+        "end": [1975, 1980],
+        "influenced" : ["Bob Dylan", "The Rolling Stones", "Radiohead"]
+    },
     "The Crickets":
-        {
-            "start": [1957],
-            "end": [2016],
-	    "influenced": ["The Beatles", "Bob Dylan", "Eric Clapton"]
-        },
+    {
+        "start": [1957],
+        "end": [2016],
+        "influenced": ["The Beatles", "Bob Dylan", "Eric Clapton"]
+    },
     "Carole King":
-        {
-            "start": [1958],
-            "end": ["present"],
-	    "influenced" : []
-        },
+    {
+        "start": [1958],
+        "end": ["present"],
+        "influenced" : []
+    },
     "George Harrison":
-        {
-            "start": [1958],
-            "end": [2001],
-	    "influenced": ["Fleetwood Mac", "Paul McCartney", "The Beatles", "David Bowie", "Jimi Hendrix"]
+    {
+        "start": [1958],
+        "end": [2001],
+        "influenced": ["Fleetwood Mac", "Paul McCartney", "The Beatles", "David Bowie", "Jimi Hendrix"]
 
-        },
+    },
     "Neil Young":
-        {
-            "start": [1960],
-            "end": ["present"],
-	    "influenced": ["Alice in Chains", "Nirvana", "Snow Patrol", "REM", "Pearl Jam"]
-        },
+    {
+        "start": [1960],
+        "end": ["present"],
+        "influenced": ["Alice in Chains", "Nirvana", "Snow Patrol", "REM", "Pearl Jam"]
+    },
     "The Beatles":
-        {
-            "start": [1960],
-            "end": [1970],
-	    "influenced": ["Coldplay", "Snow Patrol", "Pearl Jam", "REM", "Motley Crue", "U2", "Journey", "Roxy Music", "Queen", "Bruce Springsteen", "Led Zepplin", "Funkadelic", "Black Sabbath", "Fleetwood Mac", "Cream", "The Grateful Dead", "Pink Floyd", "The Who", "The Moody Blues", "Rod Stewart", "Jimi Hendrix", "Status Quo", "David Bowie", "Neil Young"]
-        },
+    {
+        "start": [1960],
+        "end": [1970],
+        "influenced": ["Coldplay", "Snow Patrol", "Pearl Jam", "REM", "Motley Crue", "U2", "Journey", "Roxy Music", "Queen", "Bruce Springsteen", "Led Zepplin", "Funkadelic", "Black Sabbath", "Fleetwood Mac", "Cream", "The Grateful Dead", "Pink Floyd", "The Who", "The Moody Blues", "Rod Stewart", "Jimi Hendrix", "Status Quo", "David Bowie", "Neil Young"]
+    },
     "Bob Dylan":
-        {
-            "start": [1961],
-            "end": ["present"],
-	    "influenced": ["REM", "Dire Straits", "U2", "Patti Smith", "Bruce Springsteen", "Santana", "Joni Mitchell", "The Grateful Dead", "The Doors", "Pink Floyd", "The Moody Blues", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young"]
-        },
+    {
+        "start": [1961],
+        "end": ["present"],
+        "influenced": ["REM", "Dire Straits", "U2", "Patti Smith", "Bruce Springsteen", "Santana", "Joni Mitchell", "The Grateful Dead", "The Doors", "Pink Floyd", "The Moody Blues", "Rod Stewart", "Jimi Hendrix", "Eric Clapton", "The Rolling Stones", "David Bowie", "The Beatles", "Neil Young"]
+    },
     "David Bowie":
-        {
-            "start": [1962],
-            "end": [2016],
-	    "influenced": ["The Darkness", "Nirvana", "Radiohead", "REM", "Motley Crue", "U2", "Kate Bush", "Roxy Music", "Patti Smith", "Queen"]
-        },
+    {
+        "start": [1962],
+        "end": [2016],
+        "influenced": ["The Darkness", "Nirvana", "Radiohead", "REM", "Motley Crue", "U2", "Kate Bush", "Roxy Music", "Patti Smith", "Queen"]
+    },
     "Status Quo":
-        {
-            "start": [1962],
-            "end": ["present"],
-	    "influenced": ["Spinal Tap"]
-        },
+    {
+        "start": [1962],
+        "end": ["present"],
+        "influenced": ["Spinal Tap"]
+    },
     "The Rolling Stones":
-        {
-            "start": [1962],
-            "end": ["present"],
-	    "influenced": ["The White Stripes", "Pearl Jam", "Motley Crue", "U2", "AC/DC", "Roxy Music", "Patti Smith", "Bruce Springsteen", "Led Zepplin", "Funkadelic", "Fleetwood Mac", "The Grateful Dead", "The Doors", "Pink Floyd", "Jefferson Airplane", "The Who", "Rod Stewart", "Status Quo", "David Bowie", "Neil Young"]
-        },
+    {
+        "start": [1962],
+        "end": ["present"],
+        "influenced": ["The White Stripes", "Pearl Jam", "Motley Crue", "U2", "AC/DC", "Roxy Music", "Patti Smith", "Bruce Springsteen", "Led Zepplin", "Funkadelic", "Fleetwood Mac", "The Grateful Dead", "The Doors", "Pink Floyd", "Jefferson Airplane", "The Who", "Rod Stewart", "Status Quo", "David Bowie", "Neil Young"]
+    },
     "Eric Clapton":
-        {
-            "start": [1963],
-            "end": ["present"],
-	    "influenced": ["Dire Straits", "Van Halen"]
-        },
+    {
+        "start": [1963],
+        "end": ["present"],
+        "influenced": ["Dire Straits", "Van Halen"]
+    },
     "Jimi Hendrix":
-        {
-            "start": [1963],
-            "end": [1970],	
-	    "influenced" : ["Pearl Jam", "Van Halen", "Patti Smith", "Queen", "Led Zepplin", "Funkadelic", "Black Sabbath", "Santana"]
-        },
+    {
+        "start": [1963],
+        "end": [1970],	
+        "influenced" : ["Pearl Jam", "Van Halen", "Patti Smith", "Queen", "Led Zepplin", "Funkadelic", "Black Sabbath", "Santana"]
+    },
     "John Mayall and The Bluesbreakers":
-        {
-            "start": [1963, 1982],
-            "end": [1969, 2008],
-	    "influenced": []
-        },
+    {
+        "start": [1963, 1982],
+        "end": [1969, 2008],
+        "influenced": []
+    },
     "Rod Stewart":
-        {
-            "start": [1964],
-            "end": ["present"],
-	    "influenced": []
-        },
+    {
+        "start": [1964],
+        "end": ["present"],
+        "influenced": []
+    },
     "Spinal Tap":
-        {
-            "start": [1964, 1992, 2001, 2007, 2009],
-            "end": [1984, 1992, 2001, 2007, 2009],
-            "influenced": ["The Darkness"]
-        },
+    {
+        "start": [1964, 1992, 2001, 2007, 2009],
+        "end": [1984, 1992, 2001, 2007, 2009],
+        "influenced": ["The Darkness"]
+    },
     "The Moody Blues":
-        {
-            "start": [1964, 1977],
-            "end": [1974, "present"],
-            "influenced": ["Fleetwood Mac"]
-        },
+    {
+        "start": [1964, 1977],
+        "end": [1974, "present"],
+        "influenced": ["Fleetwood Mac"]
+    },
     "The Who":
-        {
-            "start": [1964, 1982, 189, 1999],
-            "end": [1982, 1989, "present"],
-            "influenced": ["Pearl Jam", "Green Day", "U2", "AC/DC", "Van Halen", "Roxy Music", "Queen", "Bruce Springsteen", "Black Sabbath", "Pink Floyd", "The Moody Blues"]
-        },
+    {
+        "start": [1964, 1982, 189, 1999],
+        "end": [1982, 1989, "present"],
+        "influenced": ["Pearl Jam", "Green Day", "U2", "AC/DC", "Van Halen", "Roxy Music", "Queen", "Bruce Springsteen", "Black Sabbath", "Pink Floyd", "The Moody Blues"]
+    },
     "Big Brother and the Holding Company":
-        {
-            "start": [1965, 1969, 1987],
-            "end": [1968, 1972, "present"],
-            "influenced": []
-        },
+    {
+        "start": [1965, 1969, 1987],
+        "end": [1968, 1972, "present"],
+        "influenced": []
+    },
     "Country Joe and the Fish":
-        {
-            "start": [1965],
-            "end": [1971],
-            "influenced": []
-        },
+    {
+        "start": [1965],
+        "end": [1971],
+        "influenced": []
+    },
     "Jefferson Airplane":
-        {
-            "start": [1965, 1989, 1996],
-            "end": [1972, 1989, 1996],
-            "influenced": ["Journey", "Crosby, Stills, & Nash", "Sly and the Family Stone", "Fleetwood Mac", "The Moody Blues"]
-        },
+    {
+        "start": [1965, 1989, 1996],
+        "end": [1972, 1989, 1996],
+        "influenced": ["Journey", "Crosby, Stills, & Nash", "Sly and the Family Stone", "Fleetwood Mac", "The Moody Blues"]
+    },
     "Pink Floyd":
-        {
-            "start": [1965],
-            "end": [1995],
-            "influenced": ["Snow Patrol", "Radiohead", "Kate Bush", "Roxy Music", "Queen", "Quicksilver Messenger Service", "The Moody Blues", "David Bowie"]
-        },
+    {
+        "start": [1965],
+        "end": [1995],
+        "influenced": ["Snow Patrol", "Radiohead", "Kate Bush", "Roxy Music", "Queen", "Quicksilver Messenger Service", "The Moody Blues", "David Bowie"]
+    },
     "Quicksilver Messenger Service":
-        {
-            "start": [1965, 2006],
-            "end": [1979, "present"],
-            "influenced": []
-        },
+    {
+        "start": [1965, 2006],
+        "end": [1979, "present"],
+        "influenced": []
+    },
     "The Doors":
-        {
-            "start": [1965, 1978, 1993, 1997, 2000, 2011],
-            "end": [1973, 1978, 1993, 1997, 2000, 2011],
-            "influenced" : ["Pearl Jam", "Alice in Chains"]
-        },
+    {
+        "start": [1965, 1978, 1993, 1997, 2000, 2011],
+        "end": [1973, 1978, 1993, 1997, 2000, 2011],
+        "influenced" : ["Pearl Jam", "Alice in Chains"]
+    },
     "The Grateful Dead":
-        {
-            "start": [1965],
-            "end": [1995],
-            "influenced": []
-        },
+    {
+        "start": [1965],
+        "end": [1995],
+        "influenced": []
+    },
     "Cream":
-        {
-            "start": [1966],
-            "end": [1968],
-            "influenced": ["Pearl Jam", "AC/DC", "Van Halen", "Queen", "Led Zepplin", "Black Sabbath", "Santana"]
-        },
+    {
+        "start": [1966],
+        "end": [1968],
+        "influenced": ["Pearl Jam", "AC/DC", "Van Halen", "Queen", "Led Zepplin", "Black Sabbath", "Santana"]
+    },
     "Fleetwood Mac":
-        {
-            "start": [1967, 1997],
-            "end": [1995, "present"],
-            "influenced": ["Led Zepplin", "Santana"]
-        },
+    {
+        "start": [1967, 1997],
+        "end": [1995, "present"],
+        "influenced": ["Led Zepplin", "Santana"]
+    },
     "Joni Mitchell":
-        {
-            "start": [1967],
-            "end": [2009],
-            "influenced": ["Kate Bush"]
-        },
+    {
+        "start": [1967],
+        "end": [2009],
+        "influenced": ["Kate Bush"]
+    },
     "Santana":
-        {
-            "start": [1967],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1967],
+        "end": ["present"],
+        "influenced": []
+    },
     "Sly and the Family Stone":
-        {
-            "start": [1967, 2006, 2012],
-            "end": [1983, 2006, 2012],
-            "influenced": []
-        },
+    {
+        "start": [1967, 2006, 2012],
+        "end": [1983, 2006, 2012],
+        "influenced": []
+    },
     "Black Sabbath":
-        {
-            "start": [1968],
-            "end": [2017],
-            "influenced": ["Nirvana", "Alice in Chains", "Motley Crue", "Van Halen","Queen", "Spinal Tap"]
-        },
+    {
+        "start": [1968],
+        "end": [2017],
+        "influenced": ["Nirvana", "Alice in Chains", "Motley Crue", "Van Halen","Queen", "Spinal Tap"]
+    },
     "Crosby, Stills, & Nash":
-        {
-            "start": [1968, 1973, 1974, 1977],
-            "end": [1970, 1973, 1974, 1977],
-            "influenced" : ["The Grateful Dead"]
-        },
+    {
+        "start": [1968, 1973, 1974, 1977],
+        "end": [1970, 1973, 1974, 1977],
+        "influenced" : ["The Grateful Dead"]
+    },
     "Funkadelic":
-        {
-            "start": [1968],
-            "end": [1981],
-            "influenced": []
-        },
+    {
+        "start": [1968],
+        "end": [1981],
+        "influenced": []
+    },
     "July":
-        {
-            "start": [1968],
-            "end": [1969],
-            "influenced": []
-        },
+    {
+        "start": [1968],
+        "end": [1969],
+        "influenced": []
+    },
     "Led Zeppelin":
-        {
-            "start": [1968],
-            "end": [1980],
-            "influenced": ["The Darkness", "The White Stripes", "Pearl Jam", "Nirvana", "Alice in Chains", "Motley Crue", "Journey", "AC/DC", "Van Halen", "Queen", "Funkadelic", "Spinal Tap"]
-        },
+    {
+        "start": [1968],
+        "end": [1980],
+        "influenced": ["The Darkness", "The White Stripes", "Pearl Jam", "Nirvana", "Alice in Chains", "Motley Crue", "Journey", "AC/DC", "Van Halen", "Queen", "Funkadelic", "Spinal Tap"]
+    },
     "Bruce Springsteen":
-        {
-            "start": [1969],
-            "end": ["present"],
-            "influenced": ["Dire Straits"]
-        },
+    {
+        "start": [1969],
+        "end": ["present"],
+        "influenced": ["Dire Straits"]
+    },
     "Queen":
-        {
-            "start": [1970],
-            "end": ["present"],
-            "influenced": ["The Darkness", "Radiohead", "Journey", "Van Halen"]
-        },
+    {
+        "start": [1970],
+        "end": ["present"],
+        "influenced": ["The Darkness", "Radiohead", "Journey", "Van Halen"]
+    },
     "Patti Smith":
-        {
-            "start": [1971],
-            "end": ["present"],
-            "influenced": ["REM", "U2"]
-        },
+    {
+        "start": [1971],
+        "end": ["present"],
+        "influenced": ["REM", "U2"]
+    },
     "Paul McCartney and Wings":
-        {
-            "start": [1971],
-            "end": [1981],
-            "influenced": []
-        },
+    {
+        "start": [1971],
+        "end": [1981],
+        "influenced": []
+    },
     "Roxy Music":
-        {
-            "start": [1971, 1979, 2001],
-            "end": [1976, 1983, 2011],
-            "influenced": ["U2", "Kate Bush"]
-        },
+    {
+        "start": [1971, 1979, 2001],
+        "end": [1976, 1983, 2011],
+        "influenced": ["U2", "Kate Bush"]
+    },
     "Van Halen":
-        {
-            "start": [1972],
-            "end": ["present"],
-            "influenced": ["Motley Crue", "Spinal Tap"]
-        },
+    {
+        "start": [1972],
+        "end": ["present"],
+        "influenced": ["Motley Crue", "Spinal Tap"]
+    },
     "AC/DC":
-        {
-            "start": [1973],
-            "end": ["present"],
-            "influenced": ["The White Stripes", "Alice in Chains", "Van Halen"]
-        },
+    {
+        "start": [1973],
+        "end": ["present"],
+        "influenced": ["The White Stripes", "Alice in Chains", "Van Halen"]
+    },
     "Journey":
-        {
-            "start": [1973],
-            "end": ["present"],
-            "influenced" : []
-        },
+    {
+        "start": [1973],
+        "end": ["present"],
+        "influenced" : []
+    },
     "Kate Bush":
-        {
-            "start": [1975],
-            "end": ["present"],
-            "influenced": ["Radiohead"]
-        },
+    {
+        "start": [1975],
+        "end": ["present"],
+        "influenced": ["Radiohead"]
+    },
     "U2":
-        {
-            "start": [1976],
-            "end": ["present"],
-            "influenced": ["Radiohead", "Coldplay"]
-        },
+    {
+        "start": [1976],
+        "end": ["present"],
+        "influenced": ["Radiohead", "Coldplay"]
+    },
     "Dire Straits":
-        {
-            "start": [1977, 1991],
-            "end": [1988, 1995],
-            "influenced": []
-        },
+    {
+        "start": [1977, 1991],
+        "end": [1988, 1995],
+        "influenced": []
+    },
     "Motley Crue":
-        {
-            "start": [1980],
-            "end": [2015],
-            "influenced" : []
-        },
+    {
+        "start": [1980],
+        "end": [2015],
+        "influenced" : []
+    },
     "REM":
-        {
-            "start": [1980],
-            "end": [2011],
-            "influenced" : []
-        },
+    {
+        "start": [1980],
+        "end": [2011],
+        "influenced" : []
+    },
     "Run DMC":
-        {
-            "start": [1981, 2012],
-            "end": [2092, 2012],
-            "influenced" : []
-        },
+    {
+        "start": [1981, 2012],
+        "end": [2092, 2012],
+        "influenced" : []
+    },
     "The Offspring":
-        {
-            "start": [1984],
-            "end": ["present"],
-            "influenced" : []
-        },
+    {
+        "start": [1984],
+        "end": ["present"],
+        "influenced" : []
+    },
     "Radiohead":
-        {
-            "start": [1985],
-            "end": ["present"],
-            "influenced" : ["Coldplay"]
-        },
+    {
+        "start": [1985],
+        "end": ["present"],
+        "influenced" : ["Coldplay"]
+    },
     "Alice in Chains":
-        {
-            "start": [1987, 2005],
-            "end": [2002, "present"],
-            "influenced": []
-        },
+    {
+        "start": [1987, 2005],
+        "end": [2002, "present"],
+        "influenced": []
+    },
     "Green Day":
-        {
-            "start": [1987],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1987],
+        "end": ["present"],
+        "influenced": []
+    },
     "Nirvana":
-        {
-            "start": [1987],
-            "end": [1994],
-            "influenced" : ["Radiohead", "The Offspring", "Limp Bizkit"]
-        },
+    {
+        "start": [1987],
+        "end": [1994],
+        "influenced" : ["Radiohead", "The Offspring", "Limp Bizkit"]
+    },
     "Pearl Jam":
-        {
-            "start": [1990],
-            "end": ["present"],
-            "influenced":[]
-        },
+    {
+        "start": [1990],
+        "end": ["present"],
+        "influenced":[]
+    },
     "Limp Bizkit":
-        {
-            "start": [1994, 2009],
-            "end": [2005, "present"],
-            "influenced": []
-        },
+    {
+        "start": [1994, 2009],
+        "end": [2005, "present"],
+        "influenced": []
+    },
     "Snow Patrol":
-        {
-            "start": [1996],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1996],
+        "end": ["present"],
+        "influenced": []
+    },
     "Coldplay":
-        {
-            "start": [1985],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1985],
+        "end": ["present"],
+        "influenced": []
+    },
     "The White Stripes":
-        {
-            "start": [1997],
-            "end": [2011],
-            "influenced": []
-        },
+    {
+        "start": [1997],
+        "end": [2011],
+        "influenced": []
+    },
     "The Darkness":
-        {
-            "start": [2000, 2011],
-            "end": [2006, "present"],
-            "influenced": []
-        },
+    {
+        "start": [2000, 2011],
+        "end": [2006, "present"],
+        "influenced": []
+    },
     "Fats Domino":
-        {
-            "start": [1942],
-            "end": [2017],
-            "influenced": []
-        },
+    {
+        "start": [1942],
+        "end": [2017],
+        "influenced": []
+    },
     "Ray Charles":
-        {
-            "start": [1947],
-            "end": [2004],
-            "influenced": []
-        },
+    {
+        "start": [1947],
+        "end": [2004],
+        "influenced": []
+    },
     "Bo Diddley":
-        {
-            "start": [1943],
-            "end": [2006],
-            "influenced": []
-        },
+    {
+        "start": [1943],
+        "end": [2006],
+        "influenced": []
+    },
     "Ike & Tina Turner":
-        {
-            "start": [1960],
-            "end": [1976],
-            "influenced": []
-        },
+    {
+        "start": [1960],
+        "end": [1976],
+        "influenced": []
+    },
     "The Platters":
-        {
-            "start": [1954],
-            "end": [1970],
-            "influenced": []
-        },
+    {
+        "start": [1954],
+        "end": [1970],
+        "influenced": []
+    },
     "The Coasters":
-        {
-            "start": [1955],
-            "end": [1982],
-            "influenced": []
-        },
+    {
+        "start": [1955],
+        "end": [1982],
+        "influenced": []
+    },
     "The Drifters":
-        {
-            "start": [1953],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1953],
+        "end": ["present"],
+        "influenced": []
+    },
     "The Coasters":
-        {
-            "start": [1955],
-            "end": [1982],
-            "influenced": []
-        },
+    {
+        "start": [1955],
+        "end": [1982],
+        "influenced": []
+    },
     "The Temptations":
-        {
-            "start": [1960],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1960],
+        "end": ["present"],
+        "influenced": []
+    },
     "Gladys Knight & the Pips":
-        {
-            "start": [1952],
-            "end": [1989],
-            "influenced": []
-        },
+    {
+        "start": [1952],
+        "end": [1989],
+        "influenced": []
+    },
     "Otis Redding":
-        {
-            "start": [1958],
-            "end": [1967],
-            "influenced": []
-        },
+    {
+        "start": [1958],
+        "end": [1967],
+        "influenced": []
+    },
     "Sam Cooke":
-        {
-            "start": [1951],
-            "end": [1964],
-            "influenced": []
-        },
+    {
+        "start": [1951],
+        "end": [1964],
+        "influenced": []
+    },
     "Marvin Gaye":
-        {
-            "start": [1959],
-            "end": [1984],
-            "influenced": []
-        },
+    {
+        "start": [1959],
+        "end": [1984],
+        "influenced": []
+    },
     "Setvie Wonder":
-        {
-            "start": [1961],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1961],
+        "end": ["present"],
+        "influenced": []
+    },
     "Diana Ross":
-        {
-            "start": [1959],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1959],
+        "end": ["present"],
+        "influenced": []
+    },
     "James Brown":
-        {
-            "start": [1953, 1991],
-            "end": [1988, 2006],
-            "influenced": []
-        },
+    {
+        "start": [1953, 1991],
+        "end": [1988, 2006],
+        "influenced": []
+    },
     "Aretha Franklin":
-        {
-            "start": [1956],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1956],
+        "end": ["present"],
+        "influenced": []
+    },
     "Isaac Hayes":
-        {
-            "start": [1963],
-            "end": [2008],
-            "influenced": []
-        },
+    {
+        "start": [1963],
+        "end": [2008],
+        "influenced": []
+    },
     "Al Green":
-        {
-            "start": [1956],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1956],
+        "end": ["present"],
+        "influenced": []
+    },
     "Con Funk Shun":
-        {
-            "start": [1969, 1993],
-            "end": [1986, "present"],
-            "influenced": []
-        },
+    {
+        "start": [1969, 1993],
+        "end": [1986, "present"],
+        "influenced": []
+    },
     "Prince":
-        {
-            "start": [1975],
-            "end": [2016],
-            "influenced": []
-        },
+    {
+        "start": [1975],
+        "end": [2016],
+        "influenced": []
+    },
     "Isley Brothers":
-        {
-            "start": [1954],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1954],
+        "end": ["present"],
+        "influenced": []
+    },
     "Prince":
-        {
-            "start": [1975],
-            "end": [2016],
-            "influenced": []
-        },
+    {
+        "start": [1975],
+        "end": [2016],
+        "influenced": []
+    },
     "Rick James":
-        {
-            "start": [1965, 1996, 2004],
-            "end": [1990, 1998, 2004],
-            "influenced": []
-        },
+    {
+        "start": [1965, 1996, 2004],
+        "end": [1990, 1998, 2004],
+        "influenced": []
+    },
     "Johnny Cash":
-        {
-            "start": [1954],
-            "end": [2003],
-            "influenced": []
-        },
+    {
+        "start": [1954],
+        "end": [2003],
+        "influenced": []
+    },
     "Willie Nelson":
-        {
-            "start": [1956],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1956],
+        "end": ["present"],
+        "influenced": []
+    },
     "Hank Williams":
-        {
-            "start": [1937],
-            "end": [1953],
-            "influenced": []
-        },
+    {
+        "start": [1937],
+        "end": [1953],
+        "influenced": []
+    },
     "Dolly Parton":
-        {
-            "start": [1959],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1959],
+        "end": ["present"],
+        "influenced": []
+    },
     "Kingston Trio":
-        {
-            "start": [1957],
-            "end": [1967],
-            "influenced": []
-        },
+    {
+        "start": [1957],
+        "end": [1967],
+        "influenced": []
+    },
     "Joan Baez":
-        {
-            "start": [1958],
-            "end": ["present"],
-            "influenced": []
-        },
+    {
+        "start": [1958],
+        "end": ["present"],
+        "influenced": []
+    },
     "Creedence Clearwater Revival":
-        {
-            "start": [1967],
-            "end": [1972],
-            "influenced": []
-        },
+    {
+        "start": [1967],
+        "end": [1972],
+        "influenced": []
+    },
     "Simon & Garfunkel":
-        {
-            "start": [1956],
-            "end": [1970],
-            "influenced": []
-        },
+    {
+        "start": [1956],
+        "end": [1970],
+        "influenced": []
+    },
     "Buddy Holly":
-        {
-            "start": [1952],
-            "end": [1959],
-            "influenced": []
-        }
+    {
+        "start": [1952],
+        "end": [1959],
+        "influenced": []
+    }
 }
