@@ -66,7 +66,6 @@ var setup = function() {
     
     node.append("circle")
         .attr("r", function (d) {
-	    console.log(d.radius);
 	    return d.radius;
 	})
         .style("fill", function (d) {
@@ -81,7 +80,6 @@ var setup = function() {
     var select = function(e){
 	var genre = this.textContent;
 	var inf_bands = genres[genre]["influenced_artists"]
-	console.log(inf_bands);
 	var new_data = []
 	d3.selectAll("#vimage2").remove();
 	for (var i = 0; i < timelineData.length; i++){
@@ -90,7 +88,6 @@ var setup = function() {
 		    new_data.push(timelineData[i]);
 	    }
 	}
-	console.log(new_data);
 	timelineSetup(new_data);
     }
 
@@ -179,7 +176,6 @@ var timelineSetup = function(data) {
                 // remove once we figure out the stuff about only showing up on click
                 .stack()
 
-    console.log("Appending timeline");
     svg2 = d3.select("#timeline1").append("svg")
 	.attr("id", "vimage2")
 	.attr("height", 2000)
