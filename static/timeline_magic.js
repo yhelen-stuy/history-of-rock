@@ -253,15 +253,12 @@
 
           if (backgroundColor) { appendBackgroundBar(yAxisMapping, index, g, data, datum); }
 
-          g.selectAll("svg").data(data).enter()
+          var rects = g.selectAll("svg").data(data).enter()
             .append(function(d, i) {
                 return document.createElementNS(d3.ns.prefix.svg, "display" in d? d.display:display);
             })
             .attr("x", getXPos)
             .attr("y", getStackPosition)
-            .attr("width", function (d, i) {
-              return (d.ending_time - d.starting_time) * scaleFactor;
-            })
             .attr("cy", function(d, i) {
                 return getStackPosition(d, i) + itemHeight/2;
             })
@@ -305,6 +302,11 @@
               return d.id ? d.id : "timelineItem_"+index+"_"+i;
             })
           ;
+          rects.attr("width", 0)
+            .transition().duration(500).ease("linear")
+            .attr("width", function (d, i) {
+              return (d.ending_time - d.starting_time) * scaleFactor;
+            })
 
           g.selectAll("svg").data(data).enter()
             .append("text")
