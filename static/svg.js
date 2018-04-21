@@ -12,8 +12,8 @@ var generateNodesLinks = function(genres) {
     var graph = { "nodes": [], "links": [] };
     // Code to modify with genres necessary
     /*graph["nodes"].push({"name": "Hello", "group": 1});
-    graph["nodes"].push({"name": "World", "group": 1});
-    graph["links"].push({"source": 0, "target": 1, "value": 1});*/
+      graph["nodes"].push({"name": "World", "group": 1});
+      graph["links"].push({"source": 0, "target": 1, "value": 1});*/
     var counter = 0;
     for (var genre in genres){
         genres[genre]["id"] = counter;
@@ -44,12 +44,12 @@ var setup = function() {
         .size([width, height]);
 
     force.nodes(graph.nodes)
-    
+
         .links(graph.links)
         .start();
 
     var link = svg.selectAll(".link")
-    
+
         .data(graph.links)
         .enter().append("line")
         .attr("class", "link")
@@ -63,14 +63,14 @@ var setup = function() {
 
 
 
-    
-    node.append("circle")
+
+        node.append("circle")
         .attr("r", function (d) {
-	    return d.radius;
-	})
-        .style("fill", function (d) {
-            return color(d.group);
-        });
+            return d.radius;
+        })
+    .style("fill", function (d) {
+        return color(d.group);
+    });
 
 
     //NOTE: What we need to do for this to look good is place every band in 
@@ -78,17 +78,17 @@ var setup = function() {
     //That way we will have more info appear when each node is clicked!
 
     var select = function(e){
-	var genre = this.textContent;
-	var inf_bands = genres[genre]["influenced_artists"]
-	var new_data = []
-	d3.selectAll("#vimage2").remove();
-	for (var i = 0; i < timelineData.length; i++){
-	    console.log(inf_bands.indexOf(timelineData[i]["label"]) > -1);
-	    if  (inf_bands.indexOf(timelineData[i]["label"]) > -1){
-		    new_data.push(timelineData[i]);
-	    }
-	}
-	timelineSetup(new_data);
+        var genre = this.textContent;
+        var inf_bands = genres[genre]["influenced_artists"]
+            var new_data = []
+            d3.selectAll("#vimage2").remove();
+        for (var i = 0; i < timelineData.length; i++){
+            console.log(inf_bands.indexOf(timelineData[i]["label"]) > -1);
+            if  (inf_bands.indexOf(timelineData[i]["label"]) > -1){
+                new_data.push(timelineData[i]);
+            }
+        }
+        timelineSetup(new_data);
     }
 
 
@@ -101,7 +101,7 @@ var setup = function() {
 
 
 
-    node.append("text")
+        node.append("text")
         .attr("dx", 10)
         .attr("dy", ".35em")
         .text(function(d) { return d.name })
@@ -132,7 +132,7 @@ var setup = function() {
         d3.selectAll("circle").attr("cx", function (d) {
             return d.x;
         })
-	
+
         .attr("cy", function (d) {
             return d.y;
         });
@@ -162,23 +162,23 @@ var setup = function() {
 }
 
 var timelineSetup = function(data) {
-    
-    var chart = d3.timeline()
-                .tickFormat(
-                    {
-                        format: d3.time.format("%Y"),
-                        tickTime: d3.time.years,
-                        tickInterval: 10,
-                        tickSize: 1
-                    })
-                .beginning(new Date(1919, 0))
-                .ending(new Date())
-                // remove once we figure out the stuff about only showing up on click
-                .stack()
 
-    svg2 = d3.select("#timeline1").append("svg")
-	.attr("id", "vimage2")
-	.attr("height", 2000)
+    var chart = d3.timeline()
+        .tickFormat(
+                {
+                    format: d3.time.format("%Y"),
+                    tickTime: d3.time.years,
+                    tickInterval: 10,
+                    tickSize: 1
+                })
+    .beginning(new Date(1919, 0))
+        .ending(new Date())
+        // remove once we figure out the stuff about only showing up on click
+        .stack()
+
+        svg2 = d3.select("#timeline1").append("svg")
+        .attr("id", "vimage2")
+        .attr("height", 2000)
         .attr("width", 1000)
         .datum(data)
         .call(chart)
@@ -191,9 +191,3 @@ setup();
 
 // found in timeline_data.js
 timelineDataSetup();
-
-
-
-    
-
-
