@@ -265,6 +265,7 @@
             .attr("cx", getXPos)
             .attr("r", itemHeight / 2)
             .attr("height", itemHeight)
+	      .attr("band", datum.class)
             .style("fill", function(d, i){
               var dColorPropName;
               if (d.color) return d.color;
@@ -290,6 +291,7 @@
             .on("click", function (d, i) {
               click(d, index, datum);
             })
+
             .attr("class", function (d, i) {
               return datum.class ? "timelineSeries_"+datum.class : "timelineSeries_"+index;
             })
@@ -309,13 +311,17 @@
             })
 
           g.selectAll("svg").data(data).enter()
-            .append("text")
+
+            .append("text")	     
             .attr("x", getXTextPos)
             .attr("y", getStackTextPosition)
             .text(function(d) {
               return d.label;
-            })
+		})
+	      
           ;
+
+	 
 
           if (rowSeparatorsColor) {
             var lineYAxis = ( itemHeight + itemMargin / 2 + margin.top + (itemHeight + itemMargin) * yAxisMapping[index]);
