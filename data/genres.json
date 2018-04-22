@@ -104,7 +104,7 @@
             "Van Morrison",
             "Dave Mason",
             "Creedence Clearwater Revival",
-            "Jackson Brown",
+            "Jackson Browne",
             "Simon & Garfunkel",
             "The Band"
         ]
@@ -153,7 +153,7 @@
             "REM",
             "Paul McCartney and Wings",
             "Snow Patrol",
-            "Jphn Lennon",
+            "John Lennon",
             "Carole King",
             "U2",
             "Journey",
@@ -162,7 +162,6 @@
 
             "Crosby, Stills, & Nash",
             "Byrds",
-            "The Go-Go's",
             "Fleetwood Mac",
             "Beach Boys",
             "Kiss",
@@ -208,7 +207,7 @@
             "Blondie",
             "Elvis Costello",
             "Devo",
-            "B-52's",
+            "B 52's",
             "Police"
         ]
     },
@@ -218,7 +217,7 @@
             "Nirvana",
             "Pearl Jam",
             "Mudhoney",
-            "Sound Garden",
+            "Soundgarden",
             "Alice in Chains"
         ]
     },
@@ -234,10 +233,9 @@
             "Buzzcocks",
             "Richard Hell",
             "Siouxsie and the Banshees",
-            "Sex Pistoles",
+            "Sex Pistols",
             "Ramones",
-            "The Clash",
-            "70's"
+            "The Clash"
         ]
     },
     "Heavy Metal": {
@@ -303,11 +301,10 @@
             "Yes",
             "Pink Floyd",
             "Genesis",
-            "Residents",
             "King Crimson",
             "Jethro Tull",
             "Rush",
-            "Elo"
+            "ELO"
         ]
     },
     "Glitter/Glam": {
@@ -322,20 +319,18 @@
     "Southern Rock": {
         "influenced_genres": [],
         "influenced_artists": [
-            "Allman Brothers",
+            "Allman Brothers Band",
             "Lynyrd Skynyrd",
-            "Zz Top",
+            "ZZ Top",
             "Ozark Mt. Daredevils",
             "Black Oak Arkansas",
-            "Molly Hatchet",
-            "Little Feat",
-            "Dr. John"
+            "Molly Hatchet"
         ]
     },
     "?": {
         "influenced_genres": [],
         "influenced_artists": [
-            "Zappa",
+            "Frank Zappa",
             "Can",
             "Capt. Beefheart"
         ]
@@ -347,7 +342,7 @@
         ],
         "influenced_artists": [
             "Bee Gees",
-            "The Village People",
+            "Village People",
             "Donna Summer",
             "KC & the Sunshine Band"
         ]
@@ -357,9 +352,9 @@
         "influenced_artists": [
             "Salt N Pepa",
             "Doug E. Fresh",
-            "Sugar Hill Gang",
+            "The Sugarhill Gang",
             "Boogie Down Productions",
-            "Eric B"
+            "Eric B. & Rakim"
         ]
     },
     "Rap": {
@@ -368,12 +363,10 @@
             "LL Cool J",
             "Run DMC",
             "Dr. Dre",
-            "The Geto Boys",
             "Public Enemy",
             "N.W.A.",
             "Beastie Boys",
             "Ice T",
-            "Ice Cube",
             "Snoop Dogg"
         ]
     }
