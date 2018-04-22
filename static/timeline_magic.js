@@ -165,7 +165,6 @@ var ul = null;
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY - 28) + "px");
             ul.html("<span class=\"influence\">Influenced: </span>");
-            console.log(datum.influenced);
             ul.selectAll("li").data(datum.influenced)
                 .enter()
                 .append("li")

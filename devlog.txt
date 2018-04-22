@@ -77,9 +77,21 @@ Add bands on one dataset to the genre dataset which will be used to draw nodes
 cartegniA -- 2018-04-19 13:19
 Add bands not in the bands.json file but in the genres.json file to the bands file
 ----------------------------------------------------
+yeH -- 2018-04-21 14:03
+Fix formatting/indenting
+Add transition for rectangle width in timeline
+----------------------------------------------------
 ionkinaK -- 2018-04-22 14:23
 Updated select fxn to add on-click functionality to the bars in the histogram
 Function parses through rock-songs csv to compare band names to the bands in 
 the graph and store its respective influencial songs in an array
 Appends circles with array content to the bars to display the band's influencial songs
+----------------------------------------------------
+yeH -- 2018-04-22 15:47
+Add hovering over label of a band in timeline
+    Hovering shows a list of influenced bands using a styled div
+----------------------------------------------------
+yeH -- 2018-04-22 17:19
+Fix bug in hovering where the first band in the array of influenced
+bands wasn't showing up
 ----------------------------------------------------

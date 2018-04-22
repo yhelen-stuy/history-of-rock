@@ -12,8 +12,6 @@ for (var i = 0; i < rows.length; i++) {
     song_info.push( cells );
 }
 
-console.log(song_info[1][2]);
-
 //----------------------------------------------------------------------------
 var div = null;
 
@@ -86,7 +84,6 @@ var setup = function() {
             var new_data = []
             d3.selectAll("#vimage2").remove();
         for (var i = 0; i < timelineData.length; i++){
-            console.log(inf_bands.indexOf(timelineData[i]["label"]) > -1);
             if  (inf_bands.indexOf(timelineData[i]["label"]) > -1){
                 new_data.push(timelineData[i]);
             }
@@ -105,11 +102,6 @@ var setup = function() {
             for (var i = 0; i < song_info.length; i++){
                 console.log(i);
                 var parse_band = song_info[i][2].trim();
-                /*
-                   console.log(parse_band);
-                   console.log(band_name);
-                   console.log(parse_band == band_name);
-                   */
                 if (parse_band == band_name) {
                     ind.push(song_info[i][1]);
                 }
@@ -249,5 +241,3 @@ setup();
 
 // found in timeline_data.js
 timelineDataSetup();
-
-console.log(div);
