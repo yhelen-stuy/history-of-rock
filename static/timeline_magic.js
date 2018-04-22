@@ -1,3 +1,4 @@
+var ul = null;
 // vim: ts=2 sw=2
 (function () {
   d3.timeline = function() {
@@ -149,11 +150,42 @@
       var fullItemHeight    = itemHeight + itemMargin;
       var rowsDown          = margin.top + (fullItemHeight/2) + fullItemHeight * (yAxisMapping[index] || 1);
 
-      gParent.append("text")
+      var labels = gParent.append("text")
         .attr("class", "timeline-label")
         .attr("transform", "translate(" + labelMargin + "," + rowsDown + ")")
         .text(hasLabel ? labelFunction(datum.label) : datum.id)
-        .on("click", function (d, i) { click(d, index, datum); });
+        .on("click", function (d, i) { click(d, index, datum); })
+        .on("mouseover", function(d) {
+          if(datum.influenced.length > 0) {
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            ul = d3.select("ul")
+                .style("list-style-type", "none")
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+            ul.append("li")
+              .attr("class", "influence")
+              .text("Influenced: ");
+            ul.selectAll("li").data(datum.influenced)
+                .enter().append("li")
+                .text(function(d) {
+                  return d;
+                })
+            }
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+            if (ul != null) {
+              ul.selectAll("li")
+                .remove()
+                .append("li")
+                .attr("class", "influence")
+                .text("Influenced: ");
+            }
+        });
     };
 
     function timeline (gParent) {
@@ -317,11 +349,7 @@
             .attr("y", getStackTextPosition)
             .text(function(d) {
               return d.label;
-		})
-	      
-          ;
-
-	 
+            });
 
           if (rowSeparatorsColor) {
             var lineYAxis = ( itemHeight + itemMargin / 2 + margin.top + (itemHeight + itemMargin) * yAxisMapping[index]);

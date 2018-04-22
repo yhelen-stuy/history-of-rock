@@ -140,9 +140,9 @@
     },
     "The Who":
     {
-        "start": [1964, 1982, 189, 1999],
-        "end": [1982, 1989, "present"],
-        "influenced": ["Pearl Jam", "Green Day", "U2", "AC/DC", "Van Halen", "Roxy Music", "Queen", "Bruce Springsteen", "Black Sabbath", "Pink Floyd", "The Moody Blues"]
+            "start": [1964, 1989, 1999],
+            "end": [1982, 1989, "present"],
+            "influenced": ["Pearl Jam", "Green Day", "U2", "AC/DC", "Van Halen", "Roxy Music", "Queen", "Bruce Springsteen", "Black Sabbath", "Pink Floyd", "The Moody Blues"]
     },
     "Big Brother and the Holding Company":
     {

@@ -3,7 +3,7 @@ import datetime
 import time
 from pprint import pprint
 
-data = json.load(open('timeline.json'))
+data = json.load(open('bands.json'))
 
 def timeline_data(data):
     ret = []
@@ -25,8 +25,10 @@ def timeline_data(data):
             times_d["ending_time"] = end
             times.append(times_d)
         d["times"] = times
+        d["influenced"] = data[key]["influenced"]
         ret.append(d)
     return ret
 
 with open("../static/timeline_data.js", "w") as f:
+    f.write("// sorry about the mess\n")
     f.write("var timelineData = " + json.dumps(timeline_data(data)))

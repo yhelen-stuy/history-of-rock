@@ -19,6 +19,22 @@
             stroke: #888;
             stroke-opacity: .6;
         }
+        div.tooltip ul {
+            position: absolute;
+            text-align: left;
+            background: #ccc5c5;
+            color: #333;
+            width: 150px;
+            padding: 2px;
+            font: 14px sans-serif;
+            border: 1px;
+            border-radius: 4px;
+            pointer-events: none;
+        }
+        .influence {
+            font-weight: bold;
+            font: black;
+        }
     </style>
   </head>
   <body>
@@ -361,6 +377,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="/static/timeline_data.js"> </script>
-  <script src="/static/timeline_magic.js"> </script>
+  <script src="/static/csv_data.js"> </script>
   <script src="/static/svg.js"> </script>
+  <script src="/static/timeline_magic.js"> </script>
 </html>
