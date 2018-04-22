@@ -38,14 +38,13 @@ Navigate to `localhost:5000` in a browser and enjoy!
 
 1. [This link](https://adammarxsmind.com/2015/03/29/almost-every-rock-poster-sticker-reference-and-list-in-school-of-rock/) is a page that lists all the genres and artists in the School of Rock blackboard, which displays a web of genres/artists, with artists listed under each. This displays the evolution and progress of rock music.
 2. [This dataset](https://docs.google.com/spreadsheets/d/1mwATkBV2e_JT3FUEJtcGNU9QrYYMWvhFutpzk0dlP2E/edit?hl=en_US&hl=en_US#gid=0) contains the title, release date, and artist of 100 songs that are representative of rock, since the mid-1900s. We will be using this to create a timeline of the music of certain bands and what type of rock was prevalent during certain time periods.
-3. [This dataset](https://github.com/fivethirtyeight/data/blob/master/classic-rock/classic-rock-song-list.csv) gives titles, artists, release years, and play counts on the radio of rock songs. This will be used to give more data in the timeline and web of genres/artists for specific artists.
-4. [This website](https://web.archive.org/web/20170106110227/http://musicbloodline.info/) gives information about the who has influenced an artist and who they influenced. This may be used to draw relationships between artists of similar and varying genres, time permitting.
+3. [This website](svds.com/rockandroll/) gives information about the who has influenced an artist and who they influenced. This may be used to draw relationships between artists.
 
 ## Overall Visualization
 
-The user will be presented with two main parts: the web of genres/artists and a timeline of band activity. The web will start with a default genre clicked, which will connect to nodes that represent artists of that genre. The timeline will have peak times for specific bands. 
+The user will be presented with two main parts: the web of genres and a timeline of band activity. The genres will show the relationships between the influences of genres. The timeline will have a hoverable label that shows the artists that the hovered artist label has influenced.
 
-The user can interact with the visualization in a few ways. In the web , genres can be selected and will display artists that represent that genre. Artists can also be selected. This will bold the artist's connections in the web with  reated artists, genres and also highlighting their corresponding peak times on the timeline. Timeline peaks can be selected, which will highlight the corresponding artist in the web and any other peaks of the same artist on the timeline.
+The user can interact with the visualization in a few ways. In the web, genres can be selected and will display artists that represent that genre on the timeline to highlight relationships. Timeline peaks can be selected, which will highlight the corresponding artist in the web and any other peaks of the same artist on the timeline.
 
 ## The Purpose
 
