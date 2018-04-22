@@ -46,8 +46,8 @@ var setup = function() {
     var color = d3.scale.category20();
 
     var force = d3.layout.force()
-        .charge(-620)
-        .linkDistance(50)
+        .charge(-680)
+        .linkDistance(55)
         .size([width, height]);
 
     force.nodes(graph.nodes)
@@ -177,15 +177,15 @@ var setup = function() {
         .enter().append("marker")
         .attr("id", function(d) { return d; })
         .attr("viewBox", "0 -5 10 10")
-        .attr("refX", 25)
+        .attr("refX", 30)
         .attr("refY", 0)
-        .attr("markerWidth", 6)
-        .attr("markerHeight", 6)
+        .attr("markerWidth", 10)
+        .attr("markerHeight", 10)
         .attr("orient", "auto")
         .append("path")
         .attr("d", "M0,-5L10,0L0,5 L10,0 L0, -5")
-        .style("stroke", "#4679BD")
-        .style("opacity", "0.6");
+        .style("stroke", "#999")
+        .style("opacity", "0.9");
 }
 
 var timelineSetup = function(data) {
