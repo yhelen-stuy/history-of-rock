@@ -1,4 +1,4 @@
-{
+var genres =  {
     "Blues": {
         "influenced_genres": [
             "R&B"

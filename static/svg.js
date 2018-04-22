@@ -4,9 +4,6 @@ var svg2 = d3.select("#timeline1");
 var width = svg.attr("width");
 var height = svg.attr("height");
 
-var genresJSON = document.getElementById("genres").innerHTML;
-var genres = JSON.parse(genresJSON);
-
 var song_info = [];
 var rows = data.split("\n");
 
@@ -52,7 +49,7 @@ var setup = function() {
 
     var force = d3.layout.force()
         .charge(-620)
-        .linkDistance(30)
+        .linkDistance(50)
         .size([width, height]);
 
     force.nodes(graph.nodes)
@@ -216,7 +213,7 @@ var timelineSetup = function(data) {
 
         svg2 = d3.select("#timeline1").append("svg")
         .attr("id", "vimage2")
-        .attr("height", 3000)
+        .attr("height", 1000)
         .attr("width", 1000)
         .datum(data)
         .call(chart)
