@@ -83,7 +83,7 @@ Add transition for rectangle width in timeline
 ----------------------------------------------------
 ionkinaK -- 2018-04-22 14:23
 Updated select fxn to add on-click functionality to the bars in the histogram
-Function parses through rock-songs csv to compare band names to the bands in 
+Function parses through rock-songs csv to compare band names to the bands in
 the graph and store its respective influencial songs in an array
 Appends circles with array content to the bars to display the band's influencial songs
 ----------------------------------------------------
@@ -94,4 +94,13 @@ Add hovering over label of a band in timeline
 yeH -- 2018-04-22 17:19
 Fix bug in hovering where the first band in the array of influenced
 bands wasn't showing up
+----------------------------------------------------
+lauS -- 2018-04-22 23:24
+Fixes:
+Nodes are highlighted when clicked on
+Bands are highlighted when hovered over
+Songs are equally spaced horizontally across their timeline bars
+Songs appear when mouseover on bar and disappears on mouseout
+Header appropriately matches selected node
+LETS GO
 ----------------------------------------------------

@@ -156,7 +156,7 @@ var ul = null;
         .text(hasLabel ? labelFunction(datum.label) : datum.id)
         .on("click", function (d, i) { click(d, index, datum); })
         .on("mouseover", function(d) {
-          // this.attr("font-weight","bolder");
+          d3.select(this).attr("fill","green");
           if(datum.influenced.length > 0) {
             div.transition()
                 .duration(200)
@@ -175,6 +175,7 @@ var ul = null;
           }
         })
         .on("mouseout", function(d) {
+            d3.select(this).attr("fill","black");
             div.transition()
                 .duration(500)
                 .style("opacity", 0);
