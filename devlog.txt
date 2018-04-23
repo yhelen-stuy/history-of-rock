@@ -104,3 +104,6 @@ Songs appear when mouseover on bar and disappears on mouseout
 Header appropriately matches selected node
 LETS GO
 ----------------------------------------------------
+cartegniA -- 2018-04-22 23:39
+Added logo as background and favicon
+----------------------------------------------------
