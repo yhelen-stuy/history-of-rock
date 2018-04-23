@@ -31,7 +31,7 @@ var generateNodesLinks = function(genres) {
     for (var genre in genres){
         influenced = genres[genre]["influenced_genres"];
         for (var i = 0; i < influenced.length; i++) {
-            graph["links"].push({"source": genres[genre]["id"], "target": genres[influenced[i]]["id"],"group": 1}); 
+            graph["links"].push({"source": genres[genre]["id"], "target": genres[influenced[i]]["id"],"group": 1});
         }
     }
     return graph;
@@ -58,7 +58,7 @@ var setup = function() {
         .data(graph.links)
         .enter().append("line")
         .attr("class", "link")
-        .style("marker-end",  "url(#suit)"); // Modified line 
+        .style("marker-end",  "url(#suit)"); // Modified line
 
     var node = svg.selectAll(".node")
         .data(graph.nodes)
@@ -74,66 +74,70 @@ var setup = function() {
     });
 
 
-    //NOTE: What we need to do for this to look good is place every band in 
+    //NOTE: What we need to do for this to look good is place every band in
     //bands.json into the lists in genres.json
     //That way we will have more info appear when each node is clicked!
 
     var select = function(e){
+        d3.selectAll("circle").style("fill",color(1));
         var genre = this.textContent;
-        var inf_bands = genres[genre]["influenced_artists"]
-            var new_data = []
-            d3.selectAll("#vimage2").remove();
+        d3.select(this).select("circle").style("fill","#f44b42");
+        d3.select("#header").text(genre);
+        var inf_bands = genres[genre]["influenced_artists"];
+        var new_data = [];
+        d3.selectAll("#vimage2").remove();
         for (var i = 0; i < timelineData.length; i++){
             if  (inf_bands.indexOf(timelineData[i]["label"]) > -1){
                 new_data.push(timelineData[i]);
             }
         }
         timelineSetup(new_data);
-        svg2.selectAll("rect").on("click", function(d,i) {
+        svg2.selectAll("rect").on("mouseout", function(){
+          d3.selectAll(".song_text").remove();
+          d3.selectAll(".song_circle").remove();
+        })
+        svg2.selectAll("rect").on("mouseover", function(d,i) {
             //collecting band name from selection attributes
-            var band_name = d3.select(this).attr("band").trim();
-            console.log("THIS.X:");
-            var circle_x = d3.select(this).attr("x");
-            var circle_y = d3.select(this).attr("y");
-            console.log(circle_x);
-            console.log(circle_y);
+            var this_rect = d3.select(this);
+            var band_name = this_rect.attr("band").trim();
+            var circle_x = this_rect.attr("x");
+            var circle_y = this_rect.attr("y");
+            var width = this_rect.attr("width");
             ind = [];
             //parsing through csv to see if it contains this band's song
             for (var i = 0; i < song_info.length; i++){
-                console.log(i);
                 var parse_band = song_info[i][2].trim();
                 if (parse_band == band_name) {
                     ind.push(song_info[i][1]);
                 }
             }
+            width /= ind.length;
             //songs are collected in array
-            console.log(ind);
             for (var p = 0; p < ind.length; p++){
-                console.log("parseInt circle x");
-                console.log(parseInt(circle_x));
                 svg2.append("circle")
+                    .attr("class","song_circle")
                     .style("fill", "yellow")
                     .attr("r", 10)
-                    .attr("cy", parseInt(circle_y) + 40*p)
-                    .attr("cx", parseInt(circle_x));
+                    .attr("cx", parseInt(circle_x) + width * p)
+                    .attr("cy", parseInt(circle_y));
                 svg2.append("text")
-                    .attr("x", parseInt(circle_x))
-                    .attr("y", parseInt(circle_y) + 40*p)
+                    .attr("class","song_text")
+                    .attr("font-weight","bolder")
+                    .attr("x", parseInt(circle_x) + width * p)
+                    .attr("y", parseInt(circle_y))
                     .text(function() {return ind[p];});
 
             }
         });
     }
 
+    node.on("click", select);
 
-
-
-    node.on("click", select)
-        node.append("text")
-        .attr("dx", 10)
-        .attr("dy", ".35em")
-        .text(function(d) { return d.name })
-        .style("stroke", "gray");
+    node.append("text")
+    .attr("dx", 10)
+    .attr("dy", ".35em")
+    .text(function(d) { return d.name })
+    .style("stroke", "gray");
 
 
     force.on("tick", function () {

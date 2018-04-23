@@ -156,6 +156,7 @@ var ul = null;
         .text(hasLabel ? labelFunction(datum.label) : datum.id)
         .on("click", function (d, i) { click(d, index, datum); })
         .on("mouseover", function(d) {
+          // this.attr("font-weight","bolder");
           if(datum.influenced.length > 0) {
             div.transition()
                 .duration(200)
@@ -343,7 +344,7 @@ var ul = null;
 
           g.selectAll("svg").data(data).enter()
 
-            .append("text")	     
+            .append("text")
             .attr("x", getXTextPos)
             .attr("y", getStackTextPosition)
             .text(function(d) {
